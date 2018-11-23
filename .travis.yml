@@ -23,7 +23,7 @@ android:
     - sys-img-x86-android-28
 
 before_install:
-  - chmod +x /.gradlew
+  - chmod +x ./gradlew
   
 script:
-- "/.gradlew clean build test jacocoTestReport"
+- "./gradlew clean build test jacocoTestReport"
