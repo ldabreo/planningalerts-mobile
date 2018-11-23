@@ -22,4 +22,10 @@ android:
     # if you need to run emulator(s) during your tests
     - sys-img-x86-android-28
 
-script: gradlew test
+before_install:
+  - chmod +x /.gradlew
+  
+before_script:
+  - cd src/client   
+script:
+- "/.gradlew clean build test jacocoTestReport"
