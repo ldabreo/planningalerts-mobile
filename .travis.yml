@@ -25,7 +25,5 @@ android:
 before_install:
   - chmod +x /.gradlew
   
-before_script:
-  - cd src/client   
 script:
 - "/.gradlew clean build test jacocoTestReport"
