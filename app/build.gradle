@@ -100,7 +100,7 @@ android {
         def google_key = google_google_maps_key  ? google_google_maps_key: System.getenv('google_google_maps_key');
         def oaf_key =oaf_planningalerts_key ? oaf_planningalerts_key: System.getenv('oaf_planningalerts_key');
         debug {
-            resValue 'string', "google_maps_key", google_google_maps_key
+            resValue 'string', "google_maps_key", google_key
             buildConfigField 'String', "google_maps_key", google_key
             buildConfigField 'String', "planningalerts_key", oaf_key
             testCoverageEnabled true
