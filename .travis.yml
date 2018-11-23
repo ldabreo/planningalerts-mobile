@@ -23,8 +23,9 @@ android:
     - sys-img-x86-android-28
 	
 licenses:
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
+	- 'android-sdk-preview-license-.+'
+	- 'android-sdk-license-.+'
+	- 'google-gdk-license-.+'
     - 'build-tools-.+'
 
 before_install:
