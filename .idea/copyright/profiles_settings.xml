@@ -1,7 +1,7 @@
 <component name="CopyrightManager">
-  <settings default="android-samples">
+  <settings default="standard">
     <module2copyright>
-      <element module="All" copyright="android-samples" />
+      <element module="All" copyright="standard" />
     </module2copyright>
   </settings>
 </component>
