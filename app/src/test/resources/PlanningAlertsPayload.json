@@ -1,0 +1,2102 @@
+[
+  {
+    "application": {
+      "id": 1109625,
+      "council_reference": "DA18/1150",
+      "address": "24 Linksview Avenue Leonay NSW 2750",
+      "description": "Manufactured Home",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=426436",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=426436",
+      "lat": -33.7636567,
+      "lng": 150.651491,
+      "date_scraped": "2018-11-16T01:02:40.000Z",
+      "date_received": "2018-11-15",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 72,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1109623,
+      "council_reference": "DA18/1151",
+      "address": "52 Gibbes Street Regentville NSW 2745",
+      "description": "Demolition of Above Ground Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=426444",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=426444",
+      "lat": -33.7754681,
+      "lng": 150.664246,
+      "date_scraped": "2018-11-16T01:02:40.000Z",
+      "date_received": "2018-11-15",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 94,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1106866,
+      "council_reference": "597/2018",
+      "address": "26 Eliza Place Picton, NSW, 2571",
+      "description": "Two Storey Dwelling \u0026 S68 Fireplace",
+      "info_url": "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm",
+      "comment_url": "mailto:council@wollondilly.nsw.gov.au",
+      "lat": -33.7860281,
+      "lng": 150.661359,
+      "date_scraped": "2018-11-12T02:19:55.000Z",
+      "date_received": "2018-10-11",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 110,
+      "authority": {
+        "full_name": "Wollondilly Shire Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1103294,
+      "council_reference": "DA18/1118",
+      "address": "10 Tyson Place Emu Plains NSW 2750",
+      "description": "Dwelling Additions \u0026 Alterations",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=425689",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=425689",
+      "lat": -33.7612187,
+      "lng": 150.6573157,
+      "date_scraped": "2018-11-06T01:03:14.000Z",
+      "date_received": "2018-11-05",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 71,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1098575,
+      "council_reference": "DA18/1080",
+      "address": "188 River Road Leonay NSW 2750",
+      "description": "Awning",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=425161",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=425161",
+      "lat": -33.7709008,
+      "lng": 150.6490814,
+      "date_scraped": "2018-10-27T01:02:25.000Z",
+      "date_received": "2018-10-26",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 86,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1097920,
+      "council_reference": "DA15/0335.03",
+      "address": "78 - 88 Tench Avenue Jamisontown NSW 2750",
+      "description": "Modification - Construction of Three (3) Buildings Straddling Existing Coffee Club Building including Eleven (11) Tenancies for future Restaurant \u0026 Cafe Uses \u0026 Associated Outdoor Seating Piazza, Car Parking, Landscaping \u0026 Stormwater Drainage Works",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=425079",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=425079",
+      "lat": -33.7651214,
+      "lng": 150.6636614,
+      "date_scraped": "2018-10-26T01:04:41.000Z",
+      "date_received": "2018-10-25",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 79,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1097169,
+      "council_reference": "DA18/1068",
+      "address": "119 Nepean Street South Leonay NSW 2750",
+      "description": "Demolition of existing structures",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424974",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424974",
+      "lat": -33.7647711,
+      "lng": 150.6547977,
+      "date_scraped": "2018-10-25T01:03:38.000Z",
+      "date_received": "2018-10-23",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 76,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1090671,
+      "council_reference": "DA18/1024",
+      "address": "13 Kohlenberg Close Emu Plains NSW 2750",
+      "description": "Dual Occupancy (2 new) with Strata Subdivision",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424275",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424275",
+      "lat": -33.755269,
+      "lng": 150.6519477,
+      "date_scraped": "2018-10-12T01:04:28.000Z",
+      "date_received": "2018-10-11",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 58,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1088806,
+      "council_reference": "DA18/1018",
+      "address": "38 Cliffbrook Crescent Leonay NSW 2750",
+      "description": "Dwelling Additions and Alterations",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424127",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424127",
+      "lat": -33.7658133,
+      "lng": 150.6449985,
+      "date_scraped": "2018-10-10T01:05:39.000Z",
+      "date_received": "2018-10-09",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 72,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1088800,
+      "council_reference": "DA18/1007",
+      "address": "119 Nepean Street South Leonay NSW 2750",
+      "description": "Single Storey Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424029",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424029",
+      "lat": -33.7647711,
+      "lng": 150.6547977,
+      "date_scraped": "2018-10-10T01:05:39.000Z",
+      "date_received": "2018-10-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 76,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1088795,
+      "council_reference": "DA18/1010",
+      "address": "10 Bunyarra Drive Emu Plains NSW 2750",
+      "description": "Patio and Carport",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424038",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=424038",
+      "lat": -33.7506665,
+      "lng": 150.6480834,
+      "date_scraped": "2018-10-10T01:05:39.000Z",
+      "date_received": "2018-10-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 47,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1085189,
+      "council_reference": "DA18/0977",
+      "address": "1 a Leonay Parade Leonay NSW 2750",
+      "description": "Staged Alterations \u0026 Additions to Emu Sports Club",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=423561",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=423561",
+      "lat": -33.7605415,
+      "lng": 150.6523601,
+      "date_scraped": "2018-10-03T02:03:32.000Z",
+      "date_received": "2018-10-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 67,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1085183,
+      "council_reference": "DA18/0979",
+      "address": "42 Walkers Crescent Emu Plains NSW 2750",
+      "description": "Dwelling Addition",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=423568",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=423568",
+      "lat": -33.7529739,
+      "lng": 150.6455917,
+      "date_scraped": "2018-10-03T02:03:32.000Z",
+      "date_received": "2018-10-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 47,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1072592,
+      "council_reference": "DA18/0906",
+      "address": "7 Eric Close Emu Plains NSW 2750",
+      "description": "Replace existing stone retaining wall on front boundary and install new masonry block wall and second tier",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=422066",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=422066",
+      "lat": -33.7461667,
+      "lng": 150.6454975,
+      "date_scraped": "2018-09-12T02:04:21.000Z",
+      "date_received": "2018-09-10",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 39,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1068715,
+      "council_reference": "DA18/0885",
+      "address": "21 Lucas Street Emu Plains NSW 2750",
+      "description": "Demolition of Existing Structures \u0026 Construction of Attached Dual Occupancy",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=421719",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=421719",
+      "lat": -33.7568408,
+      "lng": 150.6535161,
+      "date_scraped": "2018-09-05T02:02:52.000Z",
+      "date_received": "2018-09-04",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 62,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1067130,
+      "council_reference": "DA18/0876",
+      "address": "7 Bellbird Avenue Mulgoa NSW 2745",
+      "description": "Single Storey Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=421433",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=421433",
+      "lat": -33.7790041,
+      "lng": 150.6608004,
+      "date_scraped": "2018-09-01T02:03:31.000Z",
+      "date_received": "2018-08-30",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 100,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1067129,
+      "council_reference": "DA18/0875",
+      "address": "11 Gibbes Street Regentville NSW 2745",
+      "description": "Garage",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=421428",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=421428",
+      "lat": -33.7733183,
+      "lng": 150.6667528,
+      "date_scraped": "2018-09-01T02:03:31.000Z",
+      "date_received": "2018-08-30",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 91,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1059981,
+      "council_reference": "DA18/0834",
+      "address": "20 Riverview Parade Leonay NSW 2750",
+      "description": "Spa",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420835",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420835",
+      "lat": -33.768276,
+      "lng": 150.6452707,
+      "date_scraped": "2018-08-21T02:02:04.000Z",
+      "date_received": "2018-08-20",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 78,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1056493,
+      "council_reference": "DA18/0825",
+      "address": "17 Cary Street Emu Plains NSW 2750",
+      "description": "Additions (Residential)",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420719",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420719",
+      "lat": -33.7546724,
+      "lng": 150.661006,
+      "date_scraped": "2018-08-18T02:02:39.000Z",
+      "date_received": "2018-08-17",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 64,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1053686,
+      "council_reference": "DA18/0816",
+      "address": "168 River Road Leonay NSW 2750",
+      "description": "Additions (Residential) Front Fence",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420612",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420612",
+      "lat": -33.7680504,
+      "lng": 150.65169,
+      "date_scraped": "2018-08-17T02:02:49.000Z",
+      "date_received": "2018-08-16",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 81,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1045803,
+      "council_reference": "DA15/0335.02",
+      "address": "78 - 88 Tench Avenue Jamisontown NSW 2750",
+      "description": "Modification to Construction of Three (3) Buildings Straddling Existing Coffee Club Building including Eleven (11) Tenancies for future Restaurant \u0026 Cafe Uses \u0026 Associated Outdoor Seating Piazza, Car Parking, Landscaping \u0026 Stormwater Drainage Works",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420192",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420192",
+      "lat": -33.7651214,
+      "lng": 150.6636614,
+      "date_scraped": "2018-08-10T02:02:31.000Z",
+      "date_received": "2018-08-09",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 79,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1040413,
+      "council_reference": "DA16/0969.02",
+      "address": "265 Great Western Highway Emu Plains NSW 2750",
+      "description": "Modification to Internal Floor Plan Layout - Torrens Title Subdivision x 2 Lots \u0026 Child Care Centre",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420155",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420155",
+      "lat": -33.75359110000001,
+      "lng": 150.6545772,
+      "date_scraped": "2018-08-09T02:03:02.000Z",
+      "date_received": "2018-08-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 58,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1039526,
+      "council_reference": "DA18/0774",
+      "address": "78 - 88 Factory Road Regentville NSW 2745",
+      "description": "Construction of Two Storey Residence, Gym, Garage, Swimming Pool and Associated Landscaping",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420027",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=420027",
+      "lat": -33.769119,
+      "lng": 150.661486,
+      "date_scraped": "2018-08-08T02:02:18.000Z",
+      "date_received": "2018-08-07",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 85,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1039066,
+      "council_reference": "DA18/0760",
+      "address": "36 Mulgoa Road Regentville NSW 2745",
+      "description": "Illuminated Advertising Signage Associated with 7-Eleven Store",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419920",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419920",
+      "lat": -33.7750124,
+      "lng": 150.665989,
+      "date_scraped": "2018-08-07T02:02:26.000Z",
+      "date_received": "2018-08-06",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 93,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1038469,
+      "council_reference": "DA18/0747",
+      "address": "34 Old Bathurst Road Emu Heights NSW 2750",
+      "description": "Dual Occupancy \u0026 Strata Title Subdivision x 2 Lots",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419843",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419843",
+      "lat": -33.7418165,
+      "lng": 150.6445547,
+      "date_scraped": "2018-08-04T02:02:50.000Z",
+      "date_received": "2018-08-03",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 33,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1035970,
+      "council_reference": "DA18/0728",
+      "address": "68 Forbes Street Emu Plains NSW 2750",
+      "description": "Shade Sail and Privacy Screen",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419516",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419516",
+      "lat": -33.7565015,
+      "lng": 150.654326,
+      "date_scraped": "2018-07-31T02:02:13.000Z",
+      "date_received": "2018-07-30",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 62,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1034924,
+      "council_reference": "DA18/0711",
+      "address": "15 The Upper Sanctuary Drive Leonay NSW 2750",
+      "description": "Alterations and Additions to Existing Two Storey Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419293",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419293",
+      "lat": -33.7662614,
+      "lng": 150.6435014,
+      "date_scraped": "2018-07-28T02:04:40.000Z",
+      "date_received": "2018-07-25",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 72,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1033434,
+      "council_reference": "DA18/0704",
+      "address": "93 River Road Emu Plains NSW 2750",
+      "description": "Boundary Adjustment",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419117",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=419117",
+      "lat": -33.758725,
+      "lng": 150.664102,
+      "date_scraped": "2018-07-25T02:02:47.000Z",
+      "date_received": "2018-07-24",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 71,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1032332,
+      "council_reference": "DA18/0702",
+      "address": "114 Factory Road Regentville NSW 2745",
+      "description": "Pool Cabana and Entry Gate",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=418913",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=418913",
+      "lat": -33.7682498,
+      "lng": 150.6579731,
+      "date_scraped": "2018-07-21T02:03:33.000Z",
+      "date_received": "2018-07-20",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 83,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1031646,
+      "council_reference": "DA18/0696",
+      "address": "47 Brougham Street Emu Plains NSW 2750",
+      "description": "Strata Title Subdivision x 2 Lots",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=418738",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=418738",
+      "lat": -33.7548707,
+      "lng": 150.6503849,
+      "date_scraped": "2018-07-20T02:02:22.000Z",
+      "date_received": "2018-07-19",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 56,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1026358,
+      "council_reference": "DA18/0666",
+      "address": "2 Bellbird Avenue Mulgoa NSW 2745",
+      "description": "Two Storey Dwelling \u0026 Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417918",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417918",
+      "lat": -33.7443505,
+      "lng": 150.6250237,
+      "date_scraped": "2018-07-10T02:01:55.000Z",
+      "date_received": "2018-07-09",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 2,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1025893,
+      "council_reference": "DA18/0663",
+      "address": "1 a Leonay Parade Leonay NSW 2750",
+      "description": "Seniors Housing Villas x 8 \u0026 Torrens Title Subdivision",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417864",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417864",
+      "lat": -33.7612346,
+      "lng": 150.6516274,
+      "date_scraped": "2018-07-07T02:02:43.000Z",
+      "date_received": "2018-07-06",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 67,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1024054,
+      "council_reference": "DA17/0677.01",
+      "address": "178 River Road Leonay NSW 2750",
+      "description": "Modification to Subfloor Garage, Workshop \u0026 Carport - Increase Carport Width",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417525",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417525",
+      "lat": -33.769376199999996,
+      "lng": 150.6505785,
+      "date_scraped": "2018-07-04T02:03:10.000Z",
+      "date_received": "2018-07-03",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 83,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1023561,
+      "council_reference": "DA18/0648",
+      "address": "47 Brougham Street Emu Plains NSW 2750",
+      "description": "Demolition of Existing Structures \u0026 Construction of Dual Occupancy",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417416",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417416",
+      "lat": -33.7548707,
+      "lng": 150.6503849,
+      "date_scraped": "2018-07-03T02:02:37.000Z",
+      "date_received": "2018-07-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 56,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1023559,
+      "council_reference": "DA18/0647",
+      "address": "32 - 38 Jamieson Street Emu Plains NSW 2750",
+      "description": "Staged Development-Demolition of Existing Structures, Stage 1- 7 Lot Torrens Title Subdivision, Stage 2- Seniors Living Development -12 Units",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417395",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417395",
+      "lat": -33.7520963,
+      "lng": 150.6495342,
+      "date_scraped": "2018-07-03T02:02:37.000Z",
+      "date_received": "2018-07-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 51,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1023560,
+      "council_reference": "DA18/0644",
+      "address": "6 Kathleen Street Emu Plains NSW 2750",
+      "description": "Alfresco Area",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417338",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417338",
+      "lat": -33.750882,
+      "lng": 150.6503673,
+      "date_scraped": "2018-07-03T02:02:37.000Z",
+      "date_received": "2018-07-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 50,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1022666,
+      "council_reference": "DA18/0642",
+      "address": "6 Regatta Place Leonay NSW 2750",
+      "description": "Dwelling Addition and Construction of Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417291",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=417291",
+      "lat": -33.7702633,
+      "lng": 150.6472423,
+      "date_scraped": "2018-06-30T02:03:18.000Z",
+      "date_received": "2018-06-29",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 84,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1018873,
+      "council_reference": "DA18/0624",
+      "address": "114 Forbes Street Emu Plains NSW 2750",
+      "description": "Pergola",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416916",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416916",
+      "lat": -33.7559634,
+      "lng": 150.6489764,
+      "date_scraped": "2018-06-26T02:02:42.000Z",
+      "date_received": "2018-06-25",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 56,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1018870,
+      "council_reference": "DA18/0626",
+      "address": "78 - 88 Tench Avenue Jamisontown NSW 2750",
+      "description": "Fit Out \u0026 First Use - New Restaurant",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416960",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416960",
+      "lat": -33.7651214,
+      "lng": 150.6636614,
+      "date_scraped": "2018-06-26T02:02:42.000Z",
+      "date_received": "2018-06-25",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 79,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1017551,
+      "council_reference": "DA18/0603",
+      "address": "6 Toorak Crescent Emu Plains NSW 2750",
+      "description": "Dwelling Additions",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416445",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416445",
+      "lat": -33.7499295,
+      "lng": 150.6453714,
+      "date_scraped": "2018-06-22T02:05:03.000Z",
+      "date_received": "2018-06-18",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 43,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1014450,
+      "council_reference": "DA18/0595",
+      "address": "13 Nangar Place Emu Plains NSW 2750",
+      "description": "Alterations \u0026 Additions",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416306",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416306",
+      "lat": -33.7467037,
+      "lng": 150.6493667,
+      "date_scraped": "2018-06-16T02:04:05.000Z",
+      "date_received": "2018-06-14",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 44,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1012588,
+      "council_reference": "DA18/0579",
+      "address": "30 Cliffbrook Crescent Leonay NSW 2750",
+      "description": "Additions (Residential)",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416020",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=416020",
+      "lat": -33.7661583,
+      "lng": 150.6456509,
+      "date_scraped": "2018-06-12T02:01:22.000Z",
+      "date_received": "2018-06-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 73,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1009823,
+      "council_reference": "DA18/0568",
+      "address": "78 - 88 Tench Avenue Jamisontown NSW 2750",
+      "description": "Fit-Out \u0026 Use as Restaurant \u0026 Associated Signage",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415625",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415625",
+      "lat": -33.7651214,
+      "lng": 150.6636614,
+      "date_scraped": "2018-06-06T02:03:06.000Z",
+      "date_received": "2018-06-04",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 79,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1009830,
+      "council_reference": "DA18/0566",
+      "address": "3 / 47 Camellia Avenue Glenmore Park NSW 2745",
+      "description": "Pergola Addition",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415605",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415605",
+      "lat": -33.788869,
+      "lng": 150.6617606,
+      "date_scraped": "2018-06-06T02:03:06.000Z",
+      "date_received": "2018-06-04",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 113,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1009455,
+      "council_reference": "DA18/0562",
+      "address": "20 Barina Crescent Emu Plains NSW 2750",
+      "description": "Alterations and Additions",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415573",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415573",
+      "lat": -33.746658,
+      "lng": 150.6459866,
+      "date_scraped": "2018-06-05T02:02:02.000Z",
+      "date_received": "2018-06-04",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 40,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1008862,
+      "council_reference": "DA18/0557",
+      "address": "127 Nepean Street South Leonay NSW 2750",
+      "description": "Demolition of Existing Dwelling, Construction of a Two Storey Dwelling \u0026 Retention of Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415510",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415510",
+      "lat": -33.7651879,
+      "lng": 150.6542533,
+      "date_scraped": "2018-06-02T02:01:58.000Z",
+      "date_received": "2018-06-01",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 76,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1006700,
+      "council_reference": "DA16/0762.01",
+      "address": "6 Riverview Parade Leonay NSW 2750",
+      "description": "Modification to approved Swimming Pool to amend size and location",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415160",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415160",
+      "lat": -33.7671654,
+      "lng": 150.6459058,
+      "date_scraped": "2018-05-30T02:04:31.000Z",
+      "date_received": "2018-05-28",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 76,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1004573,
+      "council_reference": "DA18/0526",
+      "address": "427 - 507 Mulgoa Road Mulgoa NSW 2745",
+      "description": "Installation of an Onsite Sewage Management System (OSSM)",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415030",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=415030",
+      "lat": -33.7756959,
+      "lng": 150.6533902,
+      "date_scraped": "2018-05-25T02:03:25.000Z",
+      "date_received": "2018-05-24",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 96,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1003156,
+      "council_reference": "DA18/0517",
+      "address": "67 Deloraine Drive Leonay NSW 2750",
+      "description": "Dwelling Additions and Alterations and Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=414773",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=414773",
+      "lat": -33.7595293,
+      "lng": 150.6441366,
+      "date_scraped": "2018-05-23T02:03:08.000Z",
+      "date_received": "2018-05-22",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 57,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1002329,
+      "council_reference": "DA18/0509",
+      "address": "6 Duncan Close Glenmore Park NSW 2745",
+      "description": "Shade Structure",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=414524",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=414524",
+      "lat": -33.7847291,
+      "lng": 150.6608772,
+      "date_scraped": "2018-05-20T02:01:39.000Z",
+      "date_received": "2018-05-18",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 108,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 1000673,
+      "council_reference": "DA18/0498",
+      "address": "28 Factory Road Regentville NSW 2745",
+      "description": "Alterations and Additions to existing structure and Construction of Secondary Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=414287",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=414287",
+      "lat": -33.7720236,
+      "lng": 150.6663392,
+      "date_scraped": "2018-05-17T02:04:21.000Z",
+      "date_received": "2018-05-16",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 89,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 997266,
+      "council_reference": "DA17/0993.02",
+      "address": "511 - 537 Mulgoa Road Mulgoa NSW 2745",
+      "description": "Balcony Addition - Detached Dual Occupancy",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=413822",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=413822",
+      "lat": -33.7805112,
+      "lng": 150.6497638,
+      "date_scraped": "2018-05-10T02:04:07.000Z",
+      "date_received": "2018-05-10",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 107,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 996574,
+      "council_reference": "DA18/0460",
+      "address": "33 Pamela Parade Leonay NSW 2750",
+      "description": "Dutch Gable Carport",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=412606",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=412606",
+      "lat": -33.7617086,
+      "lng": 150.6525675,
+      "date_scraped": "2018-05-09T02:02:43.000Z",
+      "date_received": "2018-05-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 69,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 993189,
+      "council_reference": "DA18/0434",
+      "address": "18 Barina Crescent Emu Plains NSW 2750",
+      "description": "Garage",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=412127",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=412127",
+      "lat": -33.7466059,
+      "lng": 150.6458831,
+      "date_scraped": "2018-05-02T02:02:40.000Z",
+      "date_received": "2018-05-01",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 40,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 991907,
+      "council_reference": "DA18/0424",
+      "address": "19 Parklands Avenue Leonay NSW 2750",
+      "description": "Ground Floor Addition, Alfresco and Serperate Carport",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=411997",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=411997",
+      "lat": -33.7678287,
+      "lng": 150.65076,
+      "date_scraped": "2018-04-28T02:03:30.000Z",
+      "date_received": "2018-04-27",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 80,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 987663,
+      "council_reference": "X/282/2018",
+      "address": "17 Levy Street, Glenbrook, NSW",
+      "description": "Removal of side deck, construction of a front deck and rear alfresco",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=687482",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7610736,
+      "lng": 150.6243134,
+      "date_scraped": "2018-04-19T02:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-04-18",
+      "on_notice_to": "2018-05-02",
+      "no_alerted": null,
+      "bearing": 0,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 987659,
+      "council_reference": "X/269/2018",
+      "address": "15 Gregory Terrace, Lapstone, NSW",
+      "description": "Replace existing verandah, new inground pool and fencing",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=686754",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7734001,
+      "lng": 150.6405981,
+      "date_scraped": "2018-04-19T02:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-04-18",
+      "on_notice_to": "2018-05-02",
+      "no_alerted": null,
+      "bearing": 93,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 980881,
+      "council_reference": "DA17/1334.01",
+      "address": "22 Pamela Parade Leonay NSW 2750",
+      "description": "Modification - Demolition of Existing Structures and Construction of Two Storey Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410284",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410284",
+      "lat": -33.7628092,
+      "lng": 150.6533725,
+      "date_scraped": "2018-04-05T02:03:17.000Z",
+      "date_received": "2018-04-04",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 71,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 980887,
+      "council_reference": "DA18/0322",
+      "address": "5 Barracks Street Emu Plains NSW 2750",
+      "description": "First Floor Addition",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410243",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410243",
+      "lat": -33.7511123,
+      "lng": 150.6558639,
+      "date_scraped": "2018-04-05T02:03:17.000Z",
+      "date_received": "2018-04-04",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 56,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 980680,
+      "council_reference": "X/253/2018",
+      "address": "9 Panorama Crescent, Mount Riverview, NSW",
+      "description": "A deck and additions and alterations to the dwelling",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=686115",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7389088,
+      "lng": 150.6290761,
+      "date_scraped": "2018-04-05T02:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-04-04",
+      "on_notice_to": "2018-04-18",
+      "no_alerted": null,
+      "bearing": 8,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 979773,
+      "council_reference": "DA18/0319",
+      "address": "12 Currawong Crescent Leonay NSW 2750",
+      "description": "First floor Addition to Single Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410202",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410202",
+      "lat": -33.7624419,
+      "lng": 150.645679,
+      "date_scraped": "2018-04-04T02:03:04.000Z",
+      "date_received": "2018-04-03",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 65,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 979355,
+      "council_reference": "X/212/2018",
+      "address": "17 Cowdery Street, Glenbrook, NSW",
+      "description": "A single storey dwelling and attached garage",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=683686",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7669395,
+      "lng": 150.618054,
+      "date_scraped": "2018-04-02T02:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-04-02",
+      "on_notice_to": "2018-04-16",
+      "no_alerted": null,
+      "bearing": 313,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 979360,
+      "council_reference": "X/250/2018",
+      "address": "65 Levy Street, Glenbrook, NSW",
+      "description": "Alterations and additions to existing dwelling",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=685707",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7604905,
+      "lng": 150.6190065,
+      "date_scraped": "2018-04-02T02:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-04-02",
+      "on_notice_to": "2018-04-16",
+      "no_alerted": null,
+      "bearing": 337,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 978698,
+      "council_reference": "DA18/0306",
+      "address": "8 Troy Street Emu Plains NSW 2750",
+      "description": "Partial Demolition Works, Construction of 100 Bed Residential Aged Care Facility including Ancillary Uses, Temporary Change of Building Use \u0026 Associated Landscaping, Drainage \u0026 Car Parking Works",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409994",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409994",
+      "lat": -33.7544798,
+      "lng": 150.6568779,
+      "date_scraped": "2018-03-30T01:05:19.000Z",
+      "date_received": "2018-03-28",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 61,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 978696,
+      "council_reference": "DA17/1353.01",
+      "address": "21 Gosling Street Emu Heights NSW 2750",
+      "description": "Dwelling Additions and Alterations - Modification of Consent",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410026",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=410026",
+      "lat": -33.74354150000001,
+      "lng": 150.6441983,
+      "date_scraped": "2018-03-30T01:05:19.000Z",
+      "date_received": "2018-03-29",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 34,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 977669,
+      "council_reference": "XM/680/2016/A",
+      "address": "9 Raymond Street, Glenbrook, NSW",
+      "description": "Modification of consent and cc - a studio and attached garage, retaining walls and driveway, demolition of some structures on site",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=685446",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.767547,
+      "lng": 150.6210022,
+      "date_scraped": "2018-03-29T01:00:08.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-29",
+      "on_notice_to": "2018-04-12",
+      "no_alerted": null,
+      "bearing": 327,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 977113,
+      "council_reference": "DA18/0302",
+      "address": "68 The Sanctuary Drive Leonay NSW 2750",
+      "description": "Fibreglass Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409907",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409907",
+      "lat": -33.76473259999999,
+      "lng": 150.6433562,
+      "date_scraped": "2018-03-28T01:03:00.000Z",
+      "date_received": "2018-03-27",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 68,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 977114,
+      "council_reference": "DA18/0301",
+      "address": "56 a Sir John Jamison Circuit Glenmore Park NSW 2745",
+      "description": "Awning",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409902",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409902",
+      "lat": -33.7822652,
+      "lng": 150.6610177,
+      "date_scraped": "2018-03-28T01:03:00.000Z",
+      "date_received": "2018-03-27",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 105,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 976434,
+      "council_reference": "X/222/2018",
+      "address": "47 Hersey Street, Blaxland, NSW",
+      "description": "A deck",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=684279",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7544741,
+      "lng": 150.6136544,
+      "date_scraped": "2018-03-26T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-26",
+      "on_notice_to": "2018-04-09",
+      "no_alerted": null,
+      "bearing": 330,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 975943,
+      "council_reference": "DA18/0288",
+      "address": "14 Iralba Avenue Emu Plains NSW 2750",
+      "description": "Demolition of Existing Garage \u0026 Construction of New Garage",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409659",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409659",
+      "lat": -33.7495876,
+      "lng": 150.6477157,
+      "date_scraped": "2018-03-24T01:02:45.000Z",
+      "date_received": "2018-03-23",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 46,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 975763,
+      "council_reference": "X/208/2018",
+      "address": "21 Cowdery Street, Glenbrook, NSW",
+      "description": "A double garage with two bedrooms and ensuite above",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=683404",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7674071,
+      "lng": 150.6180954,
+      "date_scraped": "2018-03-24T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-23",
+      "on_notice_to": "2018-04-06",
+      "no_alerted": null,
+      "bearing": 310,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 975764,
+      "council_reference": "X/210/2018",
+      "address": "94 Rusden Road, Mount Riverview, NSW",
+      "description": "Additions and alterations to existing dwelling",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=683434",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7380322,
+      "lng": 150.6278514,
+      "date_scraped": "2018-03-24T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-23",
+      "on_notice_to": "2018-04-06",
+      "no_alerted": null,
+      "bearing": 6,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 975759,
+      "council_reference": "X/158/2018",
+      "address": "70 Marshall Road, Mount Riverview, NSW",
+      "description": "A deck",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=678719",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7370876,
+      "lng": 150.6266721,
+      "date_scraped": "2018-03-24T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-23",
+      "on_notice_to": "2018-04-06",
+      "no_alerted": null,
+      "bearing": 4,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 975354,
+      "council_reference": "DA18/0280",
+      "address": "65 Forbes Street Emu Plains NSW 2750",
+      "description": "Demolition of Existing Structures \u0026 Construction of Four (4) x Two (2) Storey Townhouses",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409559",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409559",
+      "lat": -33.7558155,
+      "lng": 150.6535495,
+      "date_scraped": "2018-03-23T01:05:06.000Z",
+      "date_received": "2018-03-22",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 60,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 974538,
+      "council_reference": "DA17/0392.01",
+      "address": "114 Factory Road Regentville NSW 2745",
+      "description": "Demolition of Existing Structures and Construction of a Two Storey Dwelling and Inground Swimming Pool - Modification to amend internal layout and Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409342",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=409342",
+      "lat": -33.7682498,
+      "lng": 150.6579731,
+      "date_scraped": "2018-03-22T01:02:30.000Z",
+      "date_received": "2018-03-21",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 83,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 974381,
+      "council_reference": "X/196/2018",
+      "address": "44 Haymet Street, Blaxland, NSW",
+      "description": "A carport",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=682949",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7540368,
+      "lng": 150.6165654,
+      "date_scraped": "2018-03-22T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-21",
+      "on_notice_to": "2018-04-04",
+      "no_alerted": null,
+      "bearing": 338,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 974377,
+      "council_reference": "X/184/2018",
+      "address": "38 Old Bathurst Road, Blaxland, NSW",
+      "description": "A dual occupancy and one into two lot subdivision",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=682249",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.74501470000001,
+      "lng": 150.6200497,
+      "date_scraped": "2018-03-22T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-21",
+      "on_notice_to": "2018-04-04",
+      "no_alerted": null,
+      "bearing": 351,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 974372,
+      "council_reference": "X/205/2018",
+      "address": "7 Panorama Crescent, Mount Riverview, NSW",
+      "description": "A deck with an awning and a privacy screen",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=683091",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7390166,
+      "lng": 150.6290308,
+      "date_scraped": "2018-03-22T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-22",
+      "on_notice_to": "2018-04-05",
+      "no_alerted": null,
+      "bearing": 8,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 972234,
+      "council_reference": "XM/529/2017/A",
+      "address": "1 Gregory Terrace, Lapstone, NSW",
+      "description": "S96(1a) and cc modification - additions to dwelling, part demolition, garage and deck",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=681303",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7720728,
+      "lng": 150.6405528,
+      "date_scraped": "2018-03-17T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-16",
+      "on_notice_to": "2018-03-30",
+      "no_alerted": null,
+      "bearing": 88,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 971069,
+      "council_reference": "DA18/0248",
+      "address": "19 Pamela Parade Leonay NSW 2750",
+      "description": "Demolition of existing Structures",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408866",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408866",
+      "lat": -33.7623789,
+      "lng": 150.6537094,
+      "date_scraped": "2018-03-15T01:04:25.000Z",
+      "date_received": "2018-03-14",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 71,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 969903,
+      "council_reference": "DA18/0232",
+      "address": "1 Nangar Place Emu Plains NSW 2750",
+      "description": "Shed",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408581",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408581",
+      "lat": -33.7470416,
+      "lng": 150.6491722,
+      "date_scraped": "2018-03-13T01:03:02.000Z",
+      "date_received": "2018-03-12",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 44,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 968638,
+      "council_reference": "X/109/2018",
+      "address": "12 Barnet Street, Glenbrook, NSW",
+      "description": "Addition of second storey and studio.",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=676599",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7620328,
+      "lng": 150.6258556,
+      "date_scraped": "2018-03-10T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-09",
+      "on_notice_to": "2018-03-23",
+      "no_alerted": null,
+      "bearing": 9,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 968651,
+      "council_reference": "X/157/2018",
+      "address": "86 A Great Western Highway, Blaxland, NSW",
+      "description": "Removal of existing carport, construction of garage and attached carport",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=680321",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.75020629999999,
+      "lng": 150.611109,
+      "date_scraped": "2018-03-10T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-09",
+      "on_notice_to": "2018-03-23",
+      "no_alerted": null,
+      "bearing": 330,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 968236,
+      "council_reference": "DA18/0220",
+      "address": "35 Gwandalan Street Emu Plains NSW 2750",
+      "description": "Dwelling Additions and Alterations",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408447",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408447",
+      "lat": -33.7556588,
+      "lng": 150.6596627,
+      "date_scraped": "2018-03-09T01:06:31.000Z",
+      "date_received": "2018-03-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 64,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 965668,
+      "council_reference": "XM/879/1998/B",
+      "address": "78 St Johns Road, Blaxland, NSW",
+      "description": "S96 modification - the modification is to remove the 12 month probationary period to allow the facility to operate 24 hours permanently",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=677755",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7506713,
+      "lng": 150.6062128,
+      "date_scraped": "2018-03-08T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-07",
+      "on_notice_to": "2018-03-21",
+      "no_alerted": null,
+      "bearing": 321,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 964051,
+      "council_reference": "DA18/0200",
+      "address": "25 Forbes Street Emu Plains NSW 2750",
+      "description": "Fibreglass Swmming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408036",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=408036",
+      "lat": -33.756664,
+      "lng": 150.6600286,
+      "date_scraped": "2018-03-07T01:07:49.000Z",
+      "date_received": "2018-03-05",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 66,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 963666,
+      "council_reference": "X/105/2018",
+      "address": "14 Mitchells Pass, Blaxland, NSW",
+      "description": "A carport",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=676996",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7491159,
+      "lng": 150.61819,
+      "date_scraped": "2018-03-06T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-06",
+      "on_notice_to": "2018-03-20",
+      "no_alerted": null,
+      "bearing": 346,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 963662,
+      "council_reference": "X/40/2018",
+      "address": "60 Panorama Crescent, Mount Riverview, NSW",
+      "description": "A deck",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=673289",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7381251,
+      "lng": 150.6322741,
+      "date_scraped": "2018-03-06T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-06",
+      "on_notice_to": "2018-03-20",
+      "no_alerted": null,
+      "bearing": 13,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 963641,
+      "council_reference": "DA18/0195",
+      "address": "42 Pamela Parade Leonay NSW 2750",
+      "description": "Dwelling House First Floor Addition \u0026 Secondary Dwelling",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=407956",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=407956",
+      "lat": -33.7617813,
+      "lng": 150.6515766,
+      "date_scraped": "2018-03-04T01:10:28.000Z",
+      "date_received": "2018-03-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 68,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 963639,
+      "council_reference": "DA18/0196",
+      "address": "15 Gosling Street Emu Heights NSW 2750",
+      "description": "Addition to Existing Dwelling Enlarging Living Area, Additional Bedroom and an Ensuite",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=407963",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=407963",
+      "lat": -33.743084,
+      "lng": 150.6442867,
+      "date_scraped": "2018-03-04T01:10:28.000Z",
+      "date_received": "2018-03-02",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 34,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 962959,
+      "council_reference": "X/95/2018",
+      "address": "5 Matthew Parade, Blaxland, NSW",
+      "description": "Alterations and additions to existing dwelling",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=676651",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7505133,
+      "lng": 150.6165118,
+      "date_scraped": "2018-03-02T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-03-02",
+      "on_notice_to": "2018-03-16",
+      "no_alerted": null,
+      "bearing": 341,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 962955,
+      "council_reference": "X/78/2018",
+      "address": "23 Explorers Road, Glenbrook, NSW",
+      "description": "A studio",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=675692",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7689762,
+      "lng": 150.626037,
+      "date_scraped": "2018-03-01T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-02-28",
+      "on_notice_to": "2018-03-14",
+      "no_alerted": null,
+      "bearing": 26,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 962483,
+      "council_reference": "X/88/2018",
+      "address": "33 Mount Street, Glenbrook, NSW",
+      "description": "Alterations and additions to existing dwelling, demolition of carport and shed",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=676178",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.7641653,
+      "lng": 150.6325236,
+      "date_scraped": "2018-02-28T01:00:07.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-02-27",
+      "on_notice_to": "2018-03-13",
+      "no_alerted": null,
+      "bearing": 44,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 953487,
+      "council_reference": "DA18/0139",
+      "address": "11 Cary Street Emu Plains NSW 2750",
+      "description": "Concrete Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "lat": -33.7543551,
+      "lng": 150.6605525,
+      "date_scraped": "2018-02-19T01:05:10.000Z",
+      "date_received": "2018-02-15",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 63,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 953488,
+      "council_reference": "DA18/0139",
+      "address": "11 Cary Street Emu Plains NSW 2750",
+      "description": "Concrete Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "lat": -33.7543551,
+      "lng": 150.6605525,
+      "date_scraped": "2018-02-19T01:05:10.000Z",
+      "date_received": "2018-02-15",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 63,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 953489,
+      "council_reference": "DA18/0139",
+      "address": "11 Cary Street Emu Plains NSW 2750",
+      "description": "Concrete Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "lat": -33.7543551,
+      "lng": 150.6605525,
+      "date_scraped": "2018-02-19T01:05:10.000Z",
+      "date_received": "2018-02-15",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 63,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 953490,
+      "council_reference": "DA18/0139",
+      "address": "11 Cary Street Emu Plains NSW 2750",
+      "description": "Concrete Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406692",
+      "lat": -33.7543551,
+      "lng": 150.6605525,
+      "date_scraped": "2018-02-19T01:05:10.000Z",
+      "date_received": "2018-02-15",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 63,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 949000,
+      "council_reference": "DA18/0115",
+      "address": "66 Emerald Place Emu Plains NSW 2750",
+      "description": "1st Floor Addition",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406139",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406139",
+      "lat": -33.75991339999999,
+      "lng": 150.6582004,
+      "date_scraped": "2018-02-09T01:03:21.000Z",
+      "date_received": "2018-02-08",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 69,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 949002,
+      "council_reference": "DA18/0106",
+      "address": "388 - 390 Mulgoa Road Glenmore Park NSW 2745",
+      "description": "Swimming Pool",
+      "info_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406044",
+      "comment_url": "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track/SearchApplication.aspx?id=406044",
+      "lat": -33.7761866,
+      "lng": 150.6628149,
+      "date_scraped": "2018-02-09T01:03:21.000Z",
+      "date_received": "2018-02-07",
+      "on_notice_from": null,
+      "on_notice_to": null,
+      "no_alerted": null,
+      "bearing": 95,
+      "authority": {
+        "full_name": "Penrith City Council"
+      }
+    }
+  },
+  {
+    "application": {
+      "id": 948845,
+      "council_reference": "X/52/2018",
+      "address": "17 David Street, Glenbrook, NSW",
+      "description": "Alterations and additions to dwelling, a double garage, verandah and rainwater tank",
+      "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=673922",
+      "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+      "lat": -33.759778,
+      "lng": 150.6220908,
+      "date_scraped": "2018-02-09T01:00:21.000Z",
+      "date_received": null,
+      "on_notice_from": "2018-02-07",
+      "on_notice_to": "2018-02-21",
+      "no_alerted": null,
+      "bearing": 351,
+      "authority": {
+        "full_name": "Blue Mountains City Council"
+      }
+    }
+  }
+]

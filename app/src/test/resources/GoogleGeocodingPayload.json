@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "6",
+          "short_name": "6",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Darvall Street",
+          "short_name": "Darvall St",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Naremburn",
+          "short_name": "Naremburn",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Willoughby City Council",
+          "short_name": "Willoughby",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "New South Wales",
+          "short_name": "NSW",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Australia",
+          "short_name": "AU",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "2065",
+          "short_name": "2065",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "6 Darvall St, Naremburn NSW 2065, Australia",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": -33.8213547,
+            "lng": 151.1979732
+          },
+          "southwest": {
+            "lat": -33.8214585,
+            "lng": 151.1977724
+          }
+        },
+        "location": {
+          "lat": -33.821413,
+          "lng": 151.1978822
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": -33.8200576197085,
+            "lng": 151.1992217802915
+          },
+          "southwest": {
+            "lat": -33.8227555802915,
+            "lng": 151.1965238197085
+          }
+        }
+      },
+      "place_id": "ChIJ3xNVz9yuEmsRhM_eQ-yn1Hc",
+      "types": [
+        "premise"
+      ]
+    }
+  ],
+  "status": "OK"
+}

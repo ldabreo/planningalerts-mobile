@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright 2018 L.D'Abreo
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--
+    Before you run your application, you need a Planning Alerts key to access the APIs.
+
+    Note the key is not included in the source for this project and must be supplied at build time -
+    this is to prevent it from being misappropriated.
+
+    To add the PlanningAlerts server key:
+
+    Edit your gradle.properties file under your user's home directory /.gradle
+
+    Add the entry:
+
+    oaf_planningalerts_key="your key"
+
+    A key can be obtained by contacting PlanningAlerts.
+
+
+    -->
+
+    <string name="planningalerts_url" templateMergeStrategy="preserve" translatable="false">https://api.planningalerts.org.au/applications.js</string>
+    <string name="planningalerts_home_url" templateMergeStrategy="preserve" translatable="false">https://api.planningalerts.org.au</string>
+    <string name="planningalerts_donate_url" templateMergeStrategy="preserve" translatable="false">https://www.planningalerts.org.au/donations/new</string>
+    <string name="planningalerts_alert_url" templateMergeStrategy="preserve" translatable="false">https://www.planningalerts.org.au/alerts/signup</string>
+    <string name="openfoundation_url" templateMergeStrategy="preserve" translatable="false">https://www.oaf.org.au/</string>
+    <string name="planningalerts_connecttimeout" templateMergeStrategy="preserve" translatable="false">5000</string>
+    <string name="planningalerts_readtimeout" templateMergeStrategy="preserve" translatable="false">25000</string>
+
+</resources>

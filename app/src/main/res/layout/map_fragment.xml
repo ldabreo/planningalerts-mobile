@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2018 L.D'Abreo
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Google map with Search dropdown and auto complete places fragment at the top -->
+
+    <Spinner
+        android:id="@+id/searchSpinner"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rounded_recktangle"
+        android:gravity="center_vertical"
+        android:spinnerMode="dropdown"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorTitleOrange"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/place_autocomplete_fragment" />
+
+    <fragment
+        android:id="@+id/place_autocomplete_fragment"
+        android:name="com.au.planningalerts.ui.AddressAutoCompleteFragment"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_recktangle"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:minWidth="220dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/searchSpinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_none"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/place_autocomplete_fragment"
+        map:cameraTargetLat="-25.2744"
+        map:cameraTargetLng="133.7751"
+        map:cameraZoom="4">
+
+        <!-- semi transparent button to show when user moves the map -->
+
+        <Button
+            android:id="@+id/searchHere"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="20dp"
+            android:alpha="0.4"
+            android:background="@drawable/rounded_black_recktangle"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/search_here"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white" />
+
+
+        <include layout="@layout/alert_info_view" />
+
+
+    </fragment>
+
+</android.support.constraint.ConstraintLayout>

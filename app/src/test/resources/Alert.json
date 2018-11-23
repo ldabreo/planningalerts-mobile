@@ -1,0 +1,21 @@
+{
+  "application": {
+    "id": 948845,
+    "council_reference": "X/52/2018",
+    "address": "17 David Street, Glenbrook, NSW",
+    "description": "Alterations and additions to dwelling, a double garage, verandah and rainwater tank",
+    "info_url": "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx?id=673922",
+    "comment_url": "http://www.bmcc.nsw.gov.au/sustainableliving/developmentapplicationsinnotification",
+    "lat": -33.759778,
+    "lng": 150.6220908,
+    "date_scraped": "2018-02-09T01:00:21.000Z",
+    "date_received": null,
+    "on_notice_from": "2018-02-07",
+    "on_notice_to": "2018-02-21",
+    "no_alerted": null,
+    "bearing": 351,
+    "authority": {
+      "full_name": "Blue Mountains City Council"
+    }
+  }
+}
