@@ -5,7 +5,7 @@ Find out and have your say about development applications in your area.
 
 This is the source code for the [PlanningAlerts Android Mobile Application](https://www.planningalerts.org.au/) written using Java. The app makes use of data and API's provided by PlanningAlerts.
 
-PlanningAlerts - Android Mobile is brought to you by the [OpenAustralia Foundation](http://www.openaustraliafoundation.org.au) and was developed by L.D'Abreo.
+PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by [PlanningAlerts run by the charity OpenAustralia Foundation](http://www.openaustraliafoundation.org.au)
 
 
 ## Development
@@ -30,7 +30,6 @@ Android Play Services SDK level 28 or greater
 **Run tests**
 * Run local unit tests  `gradlew test`
 * append `jacocoTestReport` for coverage report
-* Run instrumented unit tests `gradlew connectedAndroidTest`
 
 **Build and Run Project**
 * Build a debug APK  `gradlew assembleDebug`
@@ -44,12 +43,7 @@ Android Play Services SDK level 28 or greater
 * Send a pull request against the master branch.
 
 ## Support
-
-contact@planningalerts.org.au
-
-## Credits
-
-2018 L.D'Abreo
+lara.dabreo@gmail.com
 
 ## Attributions
 
