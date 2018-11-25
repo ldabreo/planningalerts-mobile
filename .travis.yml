@@ -1,11 +1,6 @@
 language: android
 jdk: oraclejdk8
 
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
-      
 android:
   components:
     # Uncomment the lines below if you want to
@@ -41,4 +36,4 @@ before_install:
   - yes | sdkmanager "build-tools;28.0.2"
   
 script:
-- "./gradlew clean build test jacocoTestReport --stacktrace"
+- "./gradlew clean build test jacocoTestReport --info"
