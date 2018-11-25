@@ -122,6 +122,7 @@ android {
         options.warnings = false
         options.deprecation = false
         options.compilerArgs += ["-XDignore.symbol.file", "-Xdoclint:none", "-Xlint:none", "-nowarn"]
+        println 'Compiler args: ' + options.compilerArgs
     }
 
     testOptions {
