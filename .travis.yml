@@ -35,4 +35,4 @@ before_install:
   - yes | sdkmanager "build-tools;28.0.2"
   
 script:
-- "./gradlew clean build test jacocoTestReport"
+- "./gradlew clean build test jacocoTestReport --stacktrace --debug"
