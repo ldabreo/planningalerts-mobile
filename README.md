@@ -12,10 +12,10 @@ PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by [Pla
 
 
 
-** Build Passing **
+**Build Passing**
 [![Build Status](https://travis-ci.org/ldabreo/planningalerts-mobile.png?branch=master)](https://travis-ci.org/ldabreo/planningalerts-mobile)
 
-** Code Coverage **
+**Code Coverage**
 [![Code Coverage](https://img.shields.io/codecov/c/github/ldabreo/planningalerts-mobile/master.svg)](https://codecov.io/github/ldabreo/planningalerts-mobile?branch=master)
 
 The source code is Java and the project is built using Gradle in Android Studio.   You will need an Android device to run/test the app.
