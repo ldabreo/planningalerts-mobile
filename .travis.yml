@@ -49,3 +49,6 @@ cache:
 
 script:
 - "./gradlew clean build test jacocoTestReport --info"
+
+deploy:
+  skip_cleanup: true
