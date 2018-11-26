@@ -36,12 +36,14 @@ Android Play Services SDK level 28 or greater
 Both the planning Alerts server and the Google APIs require keys that must be requested from
 PlanningAlerts and Google respectively by you. These keys are not stored with the project source code 
 but rather supplied by the build user's gradle.properties file at build time (or as an env var if in TravisCI). 
-See the  .._api xml files for mroe details.
+See the  .._api xml files for more details.
 
-Note that the Google geo-coding service requires billing to be activated against the key's Google account.
-No key means your map will be blank.
-No PlanningAlerts key means you will not be able to fetch alerts from the PlanningAlerts server.
+Note that the Google geo-coding service requires billing to be activated against your key's Google account.
+* No key means your map will be blank. *
+* No PlanningAlerts key means you will not be able to fetch alerts from the PlanningAlerts server. *
+
 To add your keys:
+
 * Add your mobile google maps, places and geocoding key "google_google_maps_key" to your gradle.properties file under your home directory /.gradle
 * Add your planning alerts API key "oaf_planningalerts_key" to your gradle.properties file under your home directory /.gradle
 
