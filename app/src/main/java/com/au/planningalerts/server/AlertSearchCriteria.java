@@ -30,7 +30,7 @@ import com.google.android.gms.maps.model.LatLng;
  * <ol>
  * <li>Location - defined using a Latitude/Longitude pair</li>
  * <li>Address - defined using a free form address</li>
- * <li>Area - defined using LatLongs of the bottomLeft and ropRight of the area</li>
+ * <li>Area - defined using LatLongs of the bottomLeft and topRight of the area</li>
  * </ol>
  * <p>
  * In addition the criteria can specify the radios of the search (for location or address).
