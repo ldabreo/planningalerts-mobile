@@ -34,7 +34,6 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
@@ -269,7 +268,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             } catch (Exception e) {
-                Log.e(getClass().getSimpleName(), "Problem reading alerts", e);
+                //Log.e(getClass().getSimpleName(), "Problem reading alerts", e);
 
                 //notify user
             } finally {
@@ -386,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onNothingSelected(AdapterView<?> parent) {
-            Log.i("dropdown", "nothing selected");
+            //Log.i("dropdown", "nothing selected");
         }
     };
     // Callback. Location services listener.  Set current location from device and load nearby alerts.
@@ -815,7 +814,7 @@ public class MainActivity extends AppCompatActivity {
      * sending the request.
      */
     protected void requestLocationPermission() {
-        Log.w(this.getClass().getSimpleName(), "Location permission is not granted. Requesting permission");
+        //Log.w(this.getClass().getSimpleName(), "Location permission is not granted. Requesting permission");
 
         final String[] permissions = new String[]{Manifest.permission.ACCESS_FINE_LOCATION};
         ActivityCompat.requestPermissions(this, permissions,
@@ -837,20 +836,20 @@ public class MainActivity extends AppCompatActivity {
                                            @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         if (requestCode != 2) {
-            Log.d(getClass().getSimpleName(), "Got unexpected permission result: " + requestCode);
+            //Log.d(getClass().getSimpleName(), "Got unexpected permission result: " + requestCode);
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
             return;
         }
 
         if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            Log.d(getClass().getSimpleName(), "Location permission granted -load alerts");
+            //Log.d(getClass().getSimpleName(), "Location permission granted -load alerts");
             loadAlertsPending = true;
             mFusedLocationClient.getLastLocation().addOnSuccessListener(this, mLocationListener);
             return;
         }
 
-        Log.e(getClass().getSimpleName(), "Permission not granted: results len = " + grantResults.length +
-                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+        //Log.e(getClass().getSimpleName(), "Permission not granted: results len = " + grantResults.length +
+        // " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
     }
 
     /**

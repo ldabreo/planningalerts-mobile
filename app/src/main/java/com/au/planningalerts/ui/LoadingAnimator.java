@@ -25,8 +25,8 @@ import android.app.Activity;
 /**
  * Animator for a animating a spinning progress icon to indicate a background task is occurring.
  * <p>
- * Overlays over parent activity. Progress bar is shown using a dialog.
- * See {@link LoadingProgressBar} dialog.
+ * Overlays over parent activity. Progress bar is shown using a dia//Log.
+ * See {@link LoadingProgressBar} dia//Log.
  */
 public class LoadingAnimator {
 

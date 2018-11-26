@@ -22,7 +22,6 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.support.annotation.RequiresPermission;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.ViewGroup;
@@ -148,9 +147,9 @@ public class CameraSourcePreview extends ViewGroup {
         try {
             startIfReady();
         } catch (SecurityException se) {
-            Log.e(TAG, "Do not have permission to start the camera", se);
+            //Log.e(TAG, "Do not have permission to start the camera", se);
         } catch (IOException e) {
-            Log.e(TAG, "Could not start camera source.", e);
+            //Log.e(TAG, "Could not start camera source.", e);
         }
     }
 
@@ -163,7 +162,7 @@ public class CameraSourcePreview extends ViewGroup {
             return true;
         }
 
-        Log.d(TAG, "isPortraitMode returning false by default");
+        //Log.d(TAG, "isPortraitMode returning false by default");
         return false;
     }
 
@@ -174,9 +173,9 @@ public class CameraSourcePreview extends ViewGroup {
             try {
                 startIfReady();
             } catch (SecurityException se) {
-                Log.e(TAG, "Do not have permission to start the camera", se);
+                //Log.e(TAG, "Do not have permission to start the camera", se);
             } catch (IOException e) {
-                Log.e(TAG, "Could not start camera source.", e);
+                //Log.e(TAG, "Could not start camera source.", e);
             }
         }
 

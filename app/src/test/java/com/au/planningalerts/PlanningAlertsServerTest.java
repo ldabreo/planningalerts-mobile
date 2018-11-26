@@ -21,7 +21,6 @@ package com.au.planningalerts;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.util.Log;
 
 import com.au.planningalerts.server.Alert;
 import com.au.planningalerts.server.AlertSearchCriteria;
@@ -75,7 +74,7 @@ public class PlanningAlertsServerTest {
             return sb.toString();
 
         } catch (Exception e) {
-            Log.e(getClass().getSimpleName(), "Problem reading data", e);
+            //Log.e(getClass().getSimpleName(), "Problem reading data", e);
         } finally {
             if (br != null) {
                 br.close();

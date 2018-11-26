@@ -19,8 +19,6 @@
 
 package com.au.planningalerts.server;
 
-import android.util.Log;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -64,7 +62,7 @@ public abstract class JsonServerAdapter<Result> {
             return sb.toString();
 
         } catch (Exception e) {
-            Log.e(getClass().getSimpleName(), "Problem reading data", e);
+            //Log.e(getClass().getSimpleName(), "Problem reading data", e);
         } finally {
             if (br != null) {
                 br.close();

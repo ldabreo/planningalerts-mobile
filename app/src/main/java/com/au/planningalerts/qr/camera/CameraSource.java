@@ -30,7 +30,6 @@ import android.os.SystemClock;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresPermission;
 import android.support.annotation.StringDef;
-import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -229,7 +228,7 @@ public class CameraSource {
         // of the preview sizes and hope that the camera can handle it.  Probably unlikely, but we
         // still account for it.
         if (validPreviewSizes.size() == 0) {
-            Log.w(TAG, "No preview sizes have a corresponding same-aspect-ratio picture size");
+            //Log.w(TAG, "No preview sizes have a corresponding same-aspect-ratio picture size");
             for (Camera.Size previewSize : supportedPreviewSizes) {
                 // The null picture size will let us know that we shouldn't set a picture size.
                 validPreviewSizes.add(new SizePair(previewSize, null));
@@ -328,7 +327,7 @@ public class CameraSource {
                     // quickly after stop).
                     mProcessingThread.join();
                 } catch (InterruptedException e) {
-                    Log.d(TAG, "Frame processing thread interrupted on release.");
+                    //Log.d(TAG, "Frame processing thread interrupted on release.");
                 }
                 mProcessingThread = null;
             }
@@ -350,7 +349,7 @@ public class CameraSource {
 
 
                 } catch (Exception e) {
-                    Log.e(TAG, "Failed to clear camera preview: " + e);
+                    //Log.e(TAG, "Failed to clear camera preview: " + e);
                 }
                 mCamera.release();
                 mCamera = null;
@@ -382,7 +381,7 @@ public class CameraSource {
             int maxZoom;
             Camera.Parameters parameters = mCamera.getParameters();
             if (!parameters.isZoomSupported()) {
-                Log.w(TAG, "Zoom is not supported on this device");
+                //Log.w(TAG, "Zoom is not supported on this device");
                 return currentZoom;
             }
             maxZoom = parameters.getMaxZoom();
@@ -624,7 +623,7 @@ public class CameraSource {
                     mFocusMode)) {
                 parameters.setFocusMode(mFocusMode);
             } else {
-                Log.i(TAG, "Camera focus mode: " + mFocusMode + " is not supported on this device.");
+                //Log.i(TAG, "Camera focus mode: " + mFocusMode + " is not supported on this device.");
             }
         }
 
@@ -637,7 +636,7 @@ public class CameraSource {
                         mFlashMode)) {
                     parameters.setFlashMode(mFlashMode);
                 } else {
-                    Log.i(TAG, "Camera flash mode: " + mFlashMode + " is not supported on this device.");
+                    //Log.i(TAG, "Camera flash mode: " + mFlashMode + " is not supported on this device.");
                 }
             }
         }
@@ -720,7 +719,7 @@ public class CameraSource {
                 degrees = 270;
                 break;
             default:
-                Log.e(TAG, "Bad rotation value: " + rotation);
+                //Log.e(TAG, "Bad rotation value: " + rotation);
         }
 
         CameraInfo cameraInfo = new CameraInfo();
@@ -1109,9 +1108,9 @@ public class CameraSource {
                 }
 
                 if (!mBytesToByteBuffer.containsKey(data)) {
-                    Log.d(TAG,
-                            "Skipping frame.  Could not find ByteBuffer associated with the image " +
-                                    "data from the camera.");
+                    //Log.d(TAG,
+                    //"Skipping frame.  Could not find ByteBuffer associated with the image " +
+                    //      "data from the camera.");
                     return;
                 }
 
@@ -1153,7 +1152,7 @@ public class CameraSource {
                             // don't have it yet.
                             mLock.wait();
                         } catch (InterruptedException e) {
-                            Log.d(TAG, "Frame processing loop terminated.", e);
+                            //Log.d(TAG, "Frame processing loop terminated.", e);
                             return;
                         }
                     }
@@ -1188,7 +1187,7 @@ public class CameraSource {
                 try {
                     mDetector.receiveFrame(outputFrame);
                 } catch (Throwable t) {
-                    Log.e(TAG, "Exception thrown from receiver.", t);
+                    //Log.e(TAG, "Exception thrown from receiver.", t);
                 } finally {
                     mCamera.addCallbackBuffer(data.array());
                 }

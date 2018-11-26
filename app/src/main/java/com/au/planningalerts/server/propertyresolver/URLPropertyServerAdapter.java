@@ -22,7 +22,6 @@ package com.au.planningalerts.server.propertyresolver;
 import android.content.res.Resources;
 import android.os.Parcel;
 import android.support.annotation.Nullable;
-import android.util.Log;
 
 import com.au.planningalerts.R;
 
@@ -227,7 +226,7 @@ public abstract class URLPropertyServerAdapter implements IPropertyURLResolver {
 
 
         } catch (Exception e) {
-            Log.e(getClass().getSimpleName(), "Problem parsing url:" + urlString, e);
+            //Log.e(getClass().getSimpleName(), "Problem parsing url:" + urlString, e);
             throw e;
         } finally {
 

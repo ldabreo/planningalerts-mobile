@@ -21,7 +21,6 @@ package com.au.planningalerts.server;
 
 
 import android.content.res.Resources;
-import android.util.Log;
 
 import com.au.planningalerts.BuildConfig;
 import com.au.planningalerts.R;
@@ -112,7 +111,7 @@ public class PlanningAlertsServer extends JsonServerAdapter<Alert[]> implements 
             return fromJSON(json);
 
         } catch (Exception e) {
-            Log.e(getClass().getSimpleName(), "Problem accessing url:" + url, e.getCause());
+            //Log.e(getClass().getSimpleName(), "Problem accessing url:" + url, e.getCause());
             throw e;
         } finally {
             if (con != null) {

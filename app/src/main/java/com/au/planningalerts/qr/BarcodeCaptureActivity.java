@@ -31,7 +31,6 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
@@ -117,7 +116,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
      * sending the request.
      */
     private void requestCameraPermission() {
-        Log.w(this.getClass().getSimpleName(), "Camera permission is not granted. Requesting permission");
+        //Log.w(this.getClass().getSimpleName(), "Camera permission is not granted. Requesting permission");
 
         final String[] permissions = new String[]{Manifest.permission.CAMERA};
 
@@ -166,7 +165,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             // isOperational() can be used to check if the required native libraries are currently
             // available.  The detectors will automatically become operational once the library
             // downloads complete on device.
-            Log.w(getClass().getSimpleName(), "Detector dependencies are not yet available.");
+            //Log.w(getClass().getSimpleName(), "Detector dependencies are not yet available.");
 
         }
 
@@ -242,13 +241,13 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
                                            @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         if (requestCode != RC_HANDLE_CAMERA_PERM) {
-            Log.d(getClass().getSimpleName(), "Got unexpected permission result: " + requestCode);
+            //Log.d(getClass().getSimpleName(), "Got unexpected permission result: " + requestCode);
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
             return;
         }
 
         if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            Log.d(getClass().getSimpleName(), "Camera permission granted - initialize the camera source");
+            //Log.d(getClass().getSimpleName(), "Camera permission granted - initialize the camera source");
             // we have permission, so create the camerasource
             boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
             boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
@@ -256,8 +255,8 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             return;
         }
 
-        Log.e(getClass().getSimpleName(), "Permission not granted: results len = " + grantResults.length +
-                " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
+        //Log.e(getClass().getSimpleName(), "Permission not granted: results len = " + grantResults.length +
+        //  " Result code = " + (grantResults.length > 0 ? grantResults[0] : "(empty)"));
 
         DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
@@ -291,7 +290,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             try {
                 mPreview.start(mCameraSource, mGraphicOverlay);
             } catch (IOException e) {
-                Log.e(getClass().getSimpleName(), "Unable to start camera source.", e);
+                //Log.e(getClass().getSimpleName(), "Unable to start camera source.", e);
                 mCameraSource.release();
                 mCameraSource = null;
             }
