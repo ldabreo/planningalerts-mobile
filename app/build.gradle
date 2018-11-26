@@ -125,6 +125,7 @@ android {
 
 
     lintOptions {
+        abortOnError false
         disable 'UnusedResources','IconNoDpi','IconDuplicates','GoogleAppIndexingWarning'
     }
 
