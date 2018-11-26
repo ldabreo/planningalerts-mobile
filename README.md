@@ -39,8 +39,8 @@ but rather supplied by the build user's gradle.properties file at build time (or
 See the  .._api xml files for more details.
 
 Note that the Google geo-coding service requires billing to be activated against your key's Google account.
-* No key means your map will be blank. *
-* No PlanningAlerts key means you will not be able to fetch alerts from the PlanningAlerts server. *
+* No google maps key means your map will be blank. 
+* No PlanningAlerts key means you will not be able to fetch alerts from the PlanningAlerts server. 
 
 To add your keys:
 
