@@ -103,17 +103,17 @@ android {
         def google_key = project.hasProperty("google_google_maps_key") ? google_google_maps_key: System.getenv('google_google_maps_key');
         def oaf_key = project.hasProperty("oaf_planningalerts_key") ? oaf_planningalerts_key: System.getenv('oaf_planningalerts_key');
         debug {
-            resValue 'string', "google_maps_key", google_key
-            buildConfigField 'String', "google_maps_key", google_key
-            buildConfigField 'String', "planningalerts_key", oaf_key
+            resValue 'string', "google_maps_key", "google_key"
+            buildConfigField 'String', "google_maps_key", "google_key"
+            buildConfigField 'String', "planningalerts_key", "oaf_key"
             testCoverageEnabled true
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            resValue 'string', "google_maps_key", google_key
-            buildConfigField 'String', "google_maps_key", google_key
-            buildConfigField 'String', "planningalerts_key", oaf_key
+            resValue 'string', "google_maps_key", "google_key"
+            buildConfigField 'String', "google_maps_key", "google_key"
+            buildConfigField 'String', "planningalerts_key", "oaf_key"
 
         }
     }
