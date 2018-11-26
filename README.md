@@ -32,6 +32,7 @@ Android Play Services SDK level 28 or greater
  * Open the project in Studio
 
 **Setup Server Keys**
+
 Both the planning Alerts server and the Google APIs require keys that must be requested from
 PlanningAlerts and Google respectively by you. These keys are not stored with the project source code 
 but rather supplied by the build user's gradle.properties file at build time (or as an env var if in TravisCI). 
