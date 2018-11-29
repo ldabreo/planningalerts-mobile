@@ -28,30 +28,15 @@
 
     <!-- Google map with Search dropdown and auto complete places fragment at the top -->
 
-    <Spinner
-        android:id="@+id/searchSpinner"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:background="@drawable/rounded_recktangle"
-        android:gravity="center_vertical"
-        android:spinnerMode="dropdown"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/colorTitleOrange"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/place_autocomplete_fragment" />
-
     <fragment
         android:id="@+id/place_autocomplete_fragment"
         android:name="com.au.planningalerts.ui.AddressAutoCompleteFragment"
         android:layout_width="0dp"
         android:layout_height="35dp"
         android:layout_gravity="start"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/rounded_recktangle"
         android:gravity="center_vertical"
         android:maxLines="1"
         android:minWidth="220dp"
@@ -60,7 +45,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_chainStyle="spread"
-        app:layout_constraintStart_toEndOf="@+id/searchSpinner"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -97,6 +82,8 @@
 
 
         <include layout="@layout/alert_info_view" />
+
+        <include layout="@layout/gauge_view" />
 
 
     </fragment>

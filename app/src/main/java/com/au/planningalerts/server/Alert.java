@@ -71,7 +71,7 @@ public class Alert implements Serializable {
         JSONObject application = app.getJSONObject("application");
 
         a.id = "" + application.getLong("id");
-        a.council_reference = application.getString("council_reference");
+        a.council_reference = application.getString("council_reference").trim().replaceAll(" +", " ");
         a.address = application.getString("address");
         a.description = application.getString("description");
         a.info_url = application.getString("info_url");

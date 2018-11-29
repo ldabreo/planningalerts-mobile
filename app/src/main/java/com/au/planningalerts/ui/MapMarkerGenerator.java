@@ -35,7 +35,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
  * This class is responsible for selecting the marker icon colour
  * based on the Alert issue/received date.
  * <p>
- * Colours range across a spectrum of 60 hues over a period of the last 3 years -
+ * Colours range across a spectrum of 50 hues over a period of the last 3 years -
  * with Red representing the most recent alerts and  orange and yellow for the older ones.
  * <p>
  * Alerts 3 years (36 months) or older are shown as pale yellow. Why? In most cases the user
@@ -69,7 +69,7 @@ public class MapMarkerGenerator {
         // Approximate given we don't have Java 8 date operations here
         long months = days / 30;
         months = Math.min(36, months);
-        float adj = (months / (float) 36) * 60;
+        float adj = (months / (float) 36) * 50;
 
         return adj;
 
@@ -91,7 +91,7 @@ public class MapMarkerGenerator {
         // marker is colour coded red to yellow according to application date/age.
         // All older alerts more than ~36  months old are shown as a pale yellow
         float hue = getHueColour(a);
-        float z = ((60.0f - hue) / 60.0f); // limit hue range from red to yellow
+        float z = ((50.0f - hue) / 50.0f); // limit hue range from red to yellow
         // Adjust Z to ensure more recent alerts are on top of older ones
         // for the same address
         o = o.zIndex(z);

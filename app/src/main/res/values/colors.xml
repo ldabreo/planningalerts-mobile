@@ -21,4 +21,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorTitleOrange">#e3821f</color>
     <color name="colorBackgroundBlue">#1d3d61</color>
+    <color name="lightBlue">#2c9eb5</color>
 </resources>

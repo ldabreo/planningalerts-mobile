@@ -11,7 +11,7 @@
  *  * Unless required by applicable law or agreed to in writing, software
  *  * distributed under the License is distributed on an "AS IS" BASIS,
  *  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  * See the License for the specific language governing permissions and
+ *  * See the License for the specific lanGauge governing permissions and
  *  * limitations under the License.
  *
  *
@@ -23,6 +23,10 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.BitmapDrawable;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
@@ -36,12 +40,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewPropertyAnimator;
 import android.view.animation.TranslateAnimation;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
@@ -59,7 +64,6 @@ import com.au.planningalerts.task.PropertyURLResolverTask;
 import com.au.planningalerts.ui.AlertWindowAdapter;
 import com.au.planningalerts.ui.LoadingAnimator;
 import com.au.planningalerts.ui.MapMarkerGenerator;
-import com.au.planningalerts.ui.SearchSpinnerAdapter;
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -153,10 +157,6 @@ import java.util.Locale;
  * <p>
  * Other UI 'features':
  * <ul>
- * <li>The main search dropdown is an amalgamation of a drop-down spinner with custom search icons
- * and the Google auto complete places fragment. The background drawables have been set to give
- * the appearance of a single search widget.
- * </li>
  * <li>The QR reader is a lift from the Android vision samples project with the graphic overlay
  * modified to show a cross-hairs icon to assist with Camera focusing.</li>
  * </ul>
@@ -194,8 +194,6 @@ public class MainActivity extends AppCompatActivity {
     // Headless fragment for managing Async tasks
     protected NetworkHeadlessFragment mNetworkFragment;
 
-    // Main search selection dropdown
-    protected Spinner mSearchSpinner;
 
     // Google auto complete fragment for capturing an address
     protected PlaceAutocompleteFragment mAddressAutoComplete;
@@ -214,8 +212,14 @@ public class MainActivity extends AppCompatActivity {
     // Alert info panel
     protected LinearLayout mInfoPanel;
 
+    // Gauge
+    protected RelativeLayout mGaugePanel;
+
     // Search button on map
     protected Button mSearchHereButton;
+
+    // Animation
+    protected boolean mAnimationPending = false;
 
     /// QR code scanner activity
     protected CameraActivityListener mMapActivity;
@@ -230,6 +234,8 @@ public class MainActivity extends AppCompatActivity {
     // Set to True if an alert fetch is in progress - used to prevent flooding the server
     // Only one fetch allowed at a time.
     protected boolean loadAlertsPending = false;
+
+    protected boolean usingCurrentLocation = false;
     // Callback. On receipt of alerts from server, map them on the map
     protected ITaskListener<Void, Alert[]> mAlertsListener
             = new ITaskListener<Void, Alert[]>() {
@@ -266,6 +272,7 @@ public class MainActivity extends AppCompatActivity {
                     // Add alert to marker
                     m.setTag(a);
                 }
+                showPanel(mGaugePanel);
 
             } catch (Exception e) {
                 //Log.e(getClass().getSimpleName(), "Problem reading alerts", e);
@@ -348,46 +355,6 @@ public class MainActivity extends AppCompatActivity {
             showError("Unable to resolve QR code", error);
         }
     };
-
-    // Callback. Search Drop down/Spinner listener
-    protected AdapterView.OnItemSelectedListener mOnSpinnerItemSelectedListener
-            = new AdapterView.OnItemSelectedListener() {
-        public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
-
-            // View can be null on phone re-orientation
-            if (view == null) {
-                return;
-            }
-            //get image view to disable spinner text from being shown in top bar
-            TextView tv = (TextView) view.findViewById(R.id.searchOptionText);
-            tv.setVisibility(View.GONE);
-
-            if (pos == 0) { // User entered address
-                // Do nothing address selection is handled by address auto complete fragment
-            } else if (pos == 1) { // current location
-                // Check for the location permission before accessing the current location.  If the
-                // permission is not granted yet, request permission.
-                int rc = ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.ACCESS_FINE_LOCATION);
-                if (rc != PackageManager.PERMISSION_GRANTED) {
-                    requestLocationPermission();
-                } else {
-                    // Load alerts for the current location
-                    mAddressAutoComplete.setText("");
-                    loadAlertsForLocation(getCurrentLocation());
-                }
-            } else if (pos == 2) { // Scan domain bar code
-                // Initiate a camera activity to scan a QR code.
-                mAddressAutoComplete.setText("");
-                scanDomainQRCode();
-            }
-            mSearchSpinner.setSelection(0); // reset every time.
-        }
-
-        @Override
-        public void onNothingSelected(AdapterView<?> parent) {
-            //Log.i("dropdown", "nothing selected");
-        }
-    };
     // Callback. Location services listener.  Set current location from device and load nearby alerts.
     protected OnSuccessListener<Location> mLocationListener = new OnSuccessListener<Location>() {
         @Override
@@ -400,6 +367,17 @@ public class MainActivity extends AppCompatActivity {
                     loadAlertsForLocation(mCurrentLocation);
                 }
             }
+        }
+    };
+    GoogleMap.OnMyLocationButtonClickListener mCurrentLocationListener = new GoogleMap.OnMyLocationButtonClickListener() {
+        @Override
+        public boolean onMyLocationButtonClick() {
+            usingCurrentLocation = true;
+            mAddressAutoComplete.setText("");
+            closePanel(mGaugePanel);
+            closePanel(mInfoPanel);
+            loadAlertsForLocation(getCurrentLocation());
+            return true;
         }
     };
     // Callback. Open Planning Alerts home/About/Donate page. URL is attached as data on the View.
@@ -418,19 +396,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onInfoWindowClick(Marker marker) {
 
-            if (marker.getTag() == null) {
-                return;
-            }
+            forwardToCouncilForAlert(marker);
 
-            Alert a = (Alert) marker.getTag();
-            if (a.getInfo_url() == null) {
-                return;
-            }
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(a.getInfo_url()));
-            startActivity(i);
         }
     };
+
+
     // Callback. Flip main view according to NavBar selections.
     BottomNavigationView.OnNavigationItemSelectedListener mNavBarListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
@@ -440,14 +411,20 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.nav_search:
                     mNavBarFlipper.setDisplayedChild(0);
                     return true;
-                case R.id.nav_about:
-                    mNavBarFlipper.setDisplayedChild(1);
-                    return true;
                 case R.id.nav_raisealert:
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse(getResources().getString(R.string.planningalerts_alert_url)));
                     startActivity(i);
                     return true;
+                case R.id.nav_scan:
+                    usingCurrentLocation = false;
+                    mAddressAutoComplete.setText("");
+                    scanDomainQRCode();
+                    return true;
+                case R.id.nav_about:
+                    mNavBarFlipper.setDisplayedChild(1);
+                    return true;
+
             }
             return false;
 
@@ -455,6 +432,14 @@ public class MainActivity extends AppCompatActivity {
     };
 
     ;
+
+    View.OnClickListener mOnClickInfoPanelListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            forwardToCouncilForAlert(mSelectedMarker);
+        }
+    };
+
     // Callback. Respond to a Map marker click to show Info Window and Alert information on
     // a panel
     GoogleMap.OnMarkerClickListener mOnClickMarkerListener = new GoogleMap.OnMarkerClickListener() {
@@ -469,6 +454,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
+            usingCurrentLocation = true;
             final LatLngBounds curScreen = mMap.getProjection().getVisibleRegion().latLngBounds;
             mAddressAutoComplete.setText("");
             loadAlertsForArea(curScreen.southwest, curScreen.northeast);
@@ -484,6 +470,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             LatLng ll = place.getLatLng();
+            usingCurrentLocation = false;
             loadAlertsForLocation(ll);
         }
 
@@ -497,11 +484,35 @@ public class MainActivity extends AppCompatActivity {
      * Clear the display.
      */
     protected void resetDisplay() {
-        mSearchSpinner.setSelection(0); // reset
+
+
         mSearchHereButton.setVisibility(View.INVISIBLE); // make search here button invivible
         mMap.clear(); // clear map
-        closeInfoPanel();
+
+        closePanel(mInfoPanel);
+        closePanel(mGaugePanel);
         mSelectedMarker = null;
+    }
+
+    /**
+     * Open rhe council authority associated with the marker.
+     *
+     * @param marker
+     */
+    protected void forwardToCouncilForAlert(Marker marker) {
+
+        if (marker.getTag() == null) {
+            return;
+        }
+
+
+        Alert a = (Alert) marker.getTag();
+        if (a.getInfo_url() == null) {
+            return;
+        }
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(a.getInfo_url()));
+        startActivity(i);
     }
 
     /**
@@ -564,10 +575,24 @@ public class MainActivity extends AppCompatActivity {
         // place location maker
         MarkerOptions o = new MarkerOptions();
         o = o.position(ll);
-        o = o.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
 
-        Marker m = mMap.addMarker(o);
-        m.setZIndex(1.0f);
+
+        // If using current location, map puts blue dot at location, otherwise add a pin
+        if (!usingCurrentLocation) {
+
+            int height = 120;
+            int width = 120;
+            BitmapDrawable bitmapdraw = (BitmapDrawable) getResources().getDrawable(R.drawable.bluepin);
+            Bitmap b = bitmapdraw.getBitmap();
+            Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
+
+
+            o.icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
+
+
+            Marker m = mMap.addMarker(o);
+            m.setZIndex(1.0f);
+        }
 
         // Search will be issued once the map has completed zooming (see map listener)
     }
@@ -718,15 +743,26 @@ public class MainActivity extends AppCompatActivity {
         TextView date = (TextView) mInfoPanel.findViewById(R.id.alert_date);
         date.setText(a.getDateReceivedString());
 
+        // Match date colour to marker colour
+        float hue = MapMarkerGenerator.getHueColour(a);
+        int color = Color.HSVToColor(new float[]{hue, 1.0f, 1.0f});
+        date.setTextColor(color);
+
         // Set council authority details
         TextView authority = (TextView) mInfoPanel.findViewById(R.id.alert_authority);
         StringBuilder sb = new StringBuilder();
         Formatter formatter = new Formatter(sb, Locale.ENGLISH);
-        formatter.format(getResources().getString(R.string.alert_ref), a.getAuthority(), a.getCouncil_reference());
+        formatter.format(getResources().getString(R.string.alert_ref), a.getAuthority());
         authority.setText(sb.toString());
 
 
-        showInfoPanel();
+        TextView ref = (TextView) mInfoPanel.findViewById(R.id.alert_ref);
+        ref.setText(a.getCouncil_reference());
+        ref.setPaintFlags(ref.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+
+
+        closePanel(mGaugePanel);
+        showPanel(mInfoPanel);
 
 
     }
@@ -754,55 +790,45 @@ public class MainActivity extends AppCompatActivity {
         mSelectedMarker = null;
     }
 
+
     /**
-     * Show alert details panel
+     * Show bottom panel
+     *
+     * @param panel
      */
-    protected void showInfoPanel() {
+    protected void showPanel(ViewGroup panel) {
 
-        if (mInfoPanel.getVisibility() != View.VISIBLE) {
-
-            final float yDelta = mInfoPanel.getHeight();
-
-
-            mInfoPanel.setVisibility(View.VISIBLE);
-
-            // Animate slide-up
-            mInfoPanelAnimator = new TranslateAnimation(
-                    0,                 // fromXDelta
-                    0,                 // toXDelta
-                    0,  // fromYDelta
-                    -yDelta
-            );                // toYDelta
-            mInfoPanelAnimator.setDuration(500);
-            mInfoPanelAnimator.setFillAfter(true);
-
-
-            mInfoPanel.startAnimation(mInfoPanelAnimator);
+        if (panel.getVisibility() != View.VISIBLE) {
+            panel.setVisibility(View.VISIBLE);
+            panel.setTag((Integer) View.VISIBLE);
+            float y = mNavBar.getY() - panel.getHeight() - mNavBar.getHeight() - 10;
+            ViewPropertyAnimator animation = panel.animate().y(y).setDuration(500);
+            animation.start();
         }
 
     }
 
+
     /**
-     * Close alert details panel
+     * Close bottom panel
      */
-    protected void closeInfoPanel() {
+    protected void closePanel(final ViewGroup panel) {
 
-        if (mInfoPanel.getVisibility() == View.VISIBLE) {
+        if (((Integer) panel.getTag()) == View.VISIBLE) {
 
-            final float yDelta = mInfoPanel.getHeight();
+            panel.setTag((Integer) View.INVISIBLE);
+            float y = mNavBar.getY();
+            ViewPropertyAnimator animation = panel.animate().y(y).setDuration(500);
 
-            // Animate slide-down
-            mInfoPanelAnimator = new TranslateAnimation(
-                    0,                 // fromXDelta
-                    0,                 // toXDelta
-                    -yDelta,  // fromYDelta
-                    0
-            );                // toYDelta
-            mInfoPanelAnimator.setDuration(500);
-            mInfoPanelAnimator.setFillAfter(false);
+            animation.withEndAction(new Runnable() {
+                @Override
+                public void run() {
+                    panel.setVisibility(View.INVISIBLE);
+                }
+            });
+            animation.start();
 
-            mInfoPanel.startAnimation(mInfoPanelAnimator);
-            mInfoPanel.setVisibility(View.INVISIBLE);
+
         }
 
 
@@ -873,22 +899,17 @@ public class MainActivity extends AppCompatActivity {
         v.setBackgroundResource(R.drawable.rounded_recktangle);
         mAddressAutoComplete.setHint(getResources().getString(R.string.instruction_hint));
 
-        ((View) mAddressAutoComplete.getView().findViewById(R.id.place_autocomplete_search_button)).setVisibility(View.GONE);
+        ((View) mAddressAutoComplete.getView().findViewById(R.id.place_autocomplete_search_button)).setBackgroundResource(R.drawable.rounded_recktangle);
 
 
         // Narrow search to AUS only
         AutocompleteFilter typeFilter = new AutocompleteFilter.Builder()
-                .setTypeFilter(AutocompleteFilter.TYPE_FILTER_ADDRESS)
+                .setTypeFilter(AutocompleteFilter.TYPE_FILTER_ADDRESS) // Limit of API cant set multiple filters so use address as the default
                 .setCountry("AU")
                 .build();
 
         mAddressAutoComplete.setFilter(typeFilter);
         mAddressAutoComplete.setOnPlaceSelectedListener(mAddressListener);
-
-
-        mSearchSpinner = (Spinner) findViewById(R.id.searchSpinner);
-        mSearchSpinner.setAdapter(new SearchSpinnerAdapter(this, R.layout.search_spinner_row));
-        mSearchSpinner.setOnItemSelectedListener(mOnSpinnerItemSelectedListener);
 
 
         // listen to map
@@ -920,7 +941,6 @@ public class MainActivity extends AppCompatActivity {
         tv.setTag(getResources().getString(R.string.planningalerts_donate_url));
         tv.setOnClickListener(mAboutPlanningAlertsClickListener);
 
-
         mNavBar = (BottomNavigationView) findViewById(R.id.navigation);
         mNavBar.setOnNavigationItemSelectedListener(mNavBarListener);
 
@@ -934,6 +954,18 @@ public class MainActivity extends AppCompatActivity {
 
         mInfoPanel = (LinearLayout) findViewById(R.id.infoPanel);
         mInfoPanel.setVisibility(View.INVISIBLE);
+
+        mInfoPanel.setOnClickListener(mOnClickInfoPanelListener);
+        TextView authority = (TextView) mInfoPanel.findViewById(R.id.alert_authority);
+        authority.setOnClickListener(mOnClickInfoPanelListener);
+        TextView ref = (TextView) mInfoPanel.findViewById(R.id.alert_ref);
+        ref.setOnClickListener(mOnClickInfoPanelListener);
+        mInfoPanel.setTag(View.INVISIBLE);
+
+
+        mGaugePanel = (RelativeLayout) findViewById(R.id.gaugePanel);
+        mGaugePanel.setVisibility(View.INVISIBLE);
+        mGaugePanel.setTag(View.INVISIBLE);
 
         TextView version = findViewById(R.id.versionDetailsNumber);
         try {
@@ -966,6 +998,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onMapReady(GoogleMap googleMap) {
             mMap = googleMap;
+            mMap.setMyLocationEnabled(true);
+            mMap.setOnMyLocationButtonClickListener(mCurrentLocationListener);
             mMap.setOnCameraIdleListener(this);
             mMap.setOnCameraMoveStartedListener(this);
             mMap.setOnCameraMoveListener(this);
@@ -973,12 +1007,14 @@ public class MainActivity extends AppCompatActivity {
             mMap.setOnMarkerClickListener(mOnClickMarkerListener);
             mMap.setInfoWindowAdapter(new AlertWindowAdapter(MainActivity.this));
             mMap.setOnInfoWindowClickListener(mInfoWindowClickListener);
+
         }
 
 
         public Runnable getLoadAlerts() {
             return loadAlerts;
         }
+
 
         public void setLoadAlerts(Runnable loadAlerts) {
             this.loadAlerts = loadAlerts;
@@ -991,7 +1027,8 @@ public class MainActivity extends AppCompatActivity {
                 mSearchHereButton.setVisibility(View.VISIBLE);
 
                 clearSelectedMarker();
-                closeInfoPanel();
+                closePanel(mInfoPanel);
+                closePanel(mGaugePanel);
             }
             ;
 

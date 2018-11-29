@@ -1,6 +1,15 @@
 
 # PlanningAlerts Android Mobile
 
+
+**Build Passing**
+[![Build Status](https://travis-ci.org/ldabreo/planningalerts-mobile.png?branch=master)](https://travis-ci.org/ldabreo/planningalerts-mobile)
+
+**Code Coverage**
+[![Code Coverage](https://img.shields.io/codecov/c/github/ldabreo/planningalerts-mobile/master.svg)](https://codecov.io/github/ldabreo/planningalerts-mobile?branch=master)
+
+
+
 Find out and have your say about development applications in your area.
 
 This is the source code for the [PlanningAlerts Android Mobile Application](https://www.planningalerts.org.au/) written using Java. The app makes use of data and API's provided by PlanningAlerts.
@@ -9,14 +18,6 @@ PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by [Pla
 
 
 ## Development
-
-
-
-**Build Passing**
-[![Build Status](https://travis-ci.org/ldabreo/planningalerts-mobile.png?branch=master)](https://travis-ci.org/ldabreo/planningalerts-mobile)
-
-**Code Coverage**
-[![Code Coverage](https://img.shields.io/codecov/c/github/ldabreo/planningalerts-mobile/master.svg)](https://codecov.io/github/ldabreo/planningalerts-mobile?branch=master)
 
 The source code is Java and the project is built using Gradle in Android Studio.   You will need an Android device to run/test the app.
 
@@ -63,8 +64,6 @@ To add your keys:
 * Commit the changes without making changes to any files that aren't related to your enhancement or fix.
 * Send a pull request against the master branch.
 
-## Support
-lara.dabreo@gmail.com
 
 ## Attributions
 

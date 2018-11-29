@@ -24,14 +24,20 @@
         android:icon="@drawable/search_toolbar_icon"
         android:title="@string/nav_search" />
 
+
     <item
-        android:id="@+id/nav_about"
-        android:icon="@drawable/info_nav_icon"
-        android:title="@string/nav_about" />
+        android:id="@+id/nav_scan"
+        android:icon="@drawable/qr1"
+        android:title="@string/nav_scan_domain_code" />
 
     <item
         android:id="@+id/nav_raisealert"
         android:icon="@drawable/info_raisealert_icon"
         android:title="@string/nav_raisealert" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/info_nav_icon"
+        android:title="@string/nav_about" />
 
 </menu>

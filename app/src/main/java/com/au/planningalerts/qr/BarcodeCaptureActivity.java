@@ -105,7 +105,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         //gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-        Snackbar.make(mGraphicOverlay, "Hover camera over QR code. Pinch/Stretch to zoom",
+        Snackbar.make(mGraphicOverlay, "Hover camera over Domain property QR code. Pinch/Stretch to zoom",
                 Snackbar.LENGTH_LONG)
                 .show();
     }

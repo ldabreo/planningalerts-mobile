@@ -21,11 +21,12 @@
     <string name="app_name">Planning Alerts</string>
     <string name="search_caption">Enter address&#8230;</string>
     <string name="Search">Enter address&#8230;</string>
-    <string name="search_here">Search here&#8230;</string>
+    <string name="search_here">Search Here.</string>
 
     <string name="nav_search">Search</string>
-    <string name="nav_about">About</string>
+    <string name="nav_scan_domain_code">Scan QR</string>
     <string name="nav_raisealert">Create Alert</string>
+    <string name="nav_about">About</string>
 
 
     <string name="spinner_search">Search</string>
@@ -59,6 +60,11 @@
         away is going to be converted into luxury flats until the bulldozers turned up.
         \n\nPlanningAlerts mobile is a free app that uses the data provided by PlanningAlerts to map details of development applications near you.
         The aim of this to enable shared scrutiny of what is being built (and knocked down) in peoples\' communities.
+        \n
+        \nYou can search for planning applications by:
+        \n&#x2022; Entering an address
+        \n&#x2022; Using the current location or
+        \n&#x2022; Scanning a Domain QR code from a property magazine
         \n\nPlanningAlerts Mobile is brought to you by L.D\'Abreo, made possible by PlanningAlerts which is run by the charity
         <a href="https://www.oaf.org.au/">OpenAustralia Foundation</a>
     </string>
@@ -68,12 +74,17 @@
     <string name="email_text">contact@planningalerts.org.au</string>
 
     <string name="instruction_text1">Enter an address to find development applications. Recent alerts are shown in Red, olders alerts in yellow</string>
-    <string name="instruction_hint">Enter an address</string>
+    <string name="instruction_hint">Enter address, street name</string>
 
     <string name="crosshairs_content_desc">Centre cross-hairs over QR code</string>
     <string name="search_icon_content_desc">Search option</string>
-    <string name="alert_ref">%s - Ref: %s</string>
+    <string name="alert_ref">%s - Ref:</string>
     <string name="version">Version</string>
     <string name="loading">Loading Alerts&#8230;</string>
+
+
+    <string name="recent">Newer</string>
+    <string name="older">Older</string>
+    <string name="gaugecontentdesc">Gauge</string>
 
 </resources>

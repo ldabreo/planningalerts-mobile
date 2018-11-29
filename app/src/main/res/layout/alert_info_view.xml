@@ -26,6 +26,7 @@
     android:layout_marginRight="4dp"
     android:layout_marginBottom="8dp"
     android:background="@drawable/rounded_white_recktangle"
+    android:clickable="true"
     android:elevation="10dp"
     android:gravity="bottom"
     android:orientation="vertical"
@@ -42,15 +43,16 @@
         android:gravity="top"
         android:singleLine="true"
         android:textSize="14sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:visibility="visible" />
 
     <TextView
         android:id="@+id/alert_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
         android:gravity="top"
         android:singleLine="true"
-        android:textColor="#efab01"
         android:textSize="12sp" />
 
     <TextView
@@ -58,19 +60,47 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:clickable="true"
         android:gravity="top"
         android:paddingBottom="2dp"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:textStyle="normal" />
 
-
-    <TextView
-        android:id="@+id/alert_authority"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="start"
-        android:singleLine="true"
-        android:textColor="#2c9eb5"
-        android:textSize="12sp" />
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/alert_authority"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="2dp"
+            android:clickable="true"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            android:textColor="@color/lightBlue"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/alert_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="4dp"
+            android:clickable="true"
+            android:singleLine="true"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/lightBlue"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
