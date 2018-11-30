@@ -1,20 +1,54 @@
 
 # PlanningAlerts Android Mobile
 
+<table>
+  <tr>
+    <td>
+      Build Status
+    </td>
+    <td>
+      <a href="https://travis-ci.org/ldabreo/planningalerts-mobile">
+        <img src="https://travis-ci.org/ldabreo/planningalerts-mobile.png?branch=master" alt="Build Status" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Code Coverage
+    </td>
+    <td>
+      <a href="https://codecov.io/github/ldabreo/planningalerts-mobile">
+        <img src="https://img.shields.io/codecov/c/github/ldabreo/planningalerts-mobile/master.svg" alt="CodeCov" />
+      </a>
+    </td>
+  </tr>
 
-**Build Passing**
-[![Build Status](https://travis-ci.org/ldabreo/planningalerts-mobile.png?branch=master)](https://travis-ci.org/ldabreo/planningalerts-mobile)
+  <tr>
+    <td>
+      Other
+    </td>
+    <td>
+      <a href="https://forthebadge.com/">
+        <img src="https://forthebadge.com/images/badges/made-with-java.svg" alt="Made with Java" />
+      </a>
+    </td>
+    <td>
+          <a href="https://forthebadge.com/">
+            <img src="https://forthebadge.com/images/badges/built-for-android.svg" alt="Made for Android" />
+          </a>
+    </td>
+  </tr>
+</table>
 
-**Code Coverage**
-[![Code Coverage](https://img.shields.io/codecov/c/github/ldabreo/planningalerts-mobile/master.svg)](https://codecov.io/github/ldabreo/planningalerts-mobile?branch=master)
-
-
+## Introduction
 
 Find out and have your say about development applications in your area.
 
-This is the source code for the [PlanningAlerts Android Mobile Application](https://www.planningalerts.org.au/) written using Java. The app makes use of data and API's provided by PlanningAlerts.
+This is the source code for the PlanningAlerts Android Mobile Application written using Java. The app makes use of data and API's provided by [PlanningAlerts] (https://www.planningalerts.org.au/).
 
-PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by [PlanningAlerts run by the charity OpenAustralia Foundation](http://www.openaustraliafoundation.org.au)
+PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by PlanningAlerts, run by the charity [OpenAustralia Foundation](http://www.openaustraliafoundation.org.au)
+
+## Where to get the app
 
 
 ## Development
@@ -28,7 +62,7 @@ Android Play Services SDK level 28 or greater
  * Install Android Studio - Download from [https://developer.android.com/studio/](https://developer.android.com/studio/)
 
 **Checkout The Project**
- * Fork the project on Github
+ * Fork the project on Github. 
  * Checkout the project
  * Open the project in Studio
 
@@ -56,14 +90,18 @@ To add your keys:
 * Build a debug APK  `gradlew assembleDebug`
 * Build and run on a connected device`gradlew installDebug`
 
-## Contributing
+## Setup/Contributing
 
-* Fork the project on GitHub.
+* Fork/Clone the project on GitHub. 
+`git clone https://github.com/ldabreo/planningalerts-mobile.git`
 * Make a topic branch from the master branch.
+`git branch <branch name>`
+`git checkout <branch name>`
 * Make your changes and write tests.
 * Commit the changes without making changes to any files that aren't related to your enhancement or fix.
+`git commit -a -m 'your comments'`
 * Send a pull request against the master branch.
-
+`git request-pull master ./`
 
 ## Attributions
 
