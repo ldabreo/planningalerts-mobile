@@ -44,7 +44,7 @@
 
 Find out and have your say about development applications in your area.
 
-This is the source code for the PlanningAlerts Android Mobile Application written using Java. The app makes use of data and API's provided by [PlanningAlerts] (https://www.planningalerts.org.au/).
+This is the source code for the PlanningAlerts Android Mobile Application written using Java. The app makes use of data and API's provided by [PlanningAlerts](https://www.planningalerts.org.au/).
 
 PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by PlanningAlerts, run by the charity [OpenAustralia Foundation](http://www.openaustraliafoundation.org.au)
 
@@ -62,8 +62,8 @@ Android Play Services SDK level 28 or greater
  * Install Android Studio - Download from [https://developer.android.com/studio/](https://developer.android.com/studio/)
 
 **Checkout The Project**
- * Fork the project on Github. 
- * Checkout the project
+* Clone the project on GitHub. 
+`git clone https://github.com/ldabreo/planningalerts-mobile.git`
  * Open the project in Studio
 
 **Setup Server Keys**
@@ -80,7 +80,9 @@ Note that the Google geo-coding service requires billing to be activated against
 To add your keys:
 
 * Add your mobile google maps, places and geocoding key "google_google_maps_key" to your gradle.properties file under your home directory /.gradle
+`google_google_maps_key="AIza..."`
 * Add your planning alerts API key "oaf_planningalerts_key" to your gradle.properties file under your home directory /.gradle
+`oaf_planningalerts_key="..."`
 
 **Run tests**
 * Run local unit tests  `gradlew test`
@@ -94,6 +96,7 @@ To add your keys:
 
 * Fork/Clone the project on GitHub. 
 `git clone https://github.com/ldabreo/planningalerts-mobile.git`
+`cd planningalerts-mobile`
 * Make a topic branch from the master branch.
 `git branch <branch name>`
 `git checkout <branch name>`
