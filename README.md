@@ -12,6 +12,16 @@
       </a>
     </td>
   </tr>
+   <tr>
+      <td>
+        Code Quality
+      </td>
+      <td>
+        <a href="https://codeclimate.com/github/ldabreo/planningalerts-mobile">
+          <img src="https://codeclimate.com/github/ldabreo/planningalerts-mobile/badges/gpa.svg" alt="Code Climate" />
+        </a>
+      </td>
+    </tr>
   <tr>
     <td>
       Code Coverage
