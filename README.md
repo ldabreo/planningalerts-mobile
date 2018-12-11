@@ -50,9 +50,9 @@
   </tr>
 </table>
 
-## Distribution
+## Where to get the app
 
-PlanningAlerts can be downloaded from the Google Play store [Here](https://play.google.com/store/apps/details?id=com.au.planningalerts)
+PlanningAlerts can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=com.au.planningalerts)
 
 ## Introduction
 
@@ -61,9 +61,6 @@ Find out and have your say about development applications in your area.
 This is the source code for the PlanningAlerts Android Mobile Application written using Java. The app makes use of data and API's provided by [PlanningAlerts](https://www.planningalerts.org.au/).
 
 PlanningAlerts - Mobile is brought to you by L.D'Abreo and made possible by PlanningAlerts, run by the charity [OpenAustralia Foundation](http://www.openaustraliafoundation.org.au)
-
-## Where to get the app
-
 
 ## Development
 
