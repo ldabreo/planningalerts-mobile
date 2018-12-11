@@ -50,6 +50,10 @@
   </tr>
 </table>
 
+## Distribution
+
+PlanningAlerts can be downloaded from the Google Play store [Here](https://play.google.com/store/apps/details?id=com.au.planningalerts)
+
 ## Introduction
 
 Find out and have your say about development applications in your area.
