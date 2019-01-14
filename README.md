@@ -97,7 +97,7 @@ To add your keys:
 
 **Run tests**
 * Run local unit tests  `gradlew test`
-* append `jacocoTestReport` for coverage report
+* append `jacocoTestReport` for coverage report e.g `gradlew test jacocoTestReport`
 
 **Build and Run Project**
 * Build a debug APK  `gradlew assembleDebug`
