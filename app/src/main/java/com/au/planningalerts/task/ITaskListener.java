@@ -19,7 +19,7 @@
 
 package com.au.planningalerts.task;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Async Task Listener callback interface. Separates the task itself from callback interactions.

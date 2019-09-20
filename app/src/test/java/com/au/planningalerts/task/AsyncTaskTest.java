@@ -21,7 +21,7 @@ package com.au.planningalerts.task;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.au.planningalerts.R;
 import com.au.planningalerts.server.Alert;
