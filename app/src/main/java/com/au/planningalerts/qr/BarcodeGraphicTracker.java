@@ -18,14 +18,14 @@
 package com.au.planningalerts.qr;
 
 import android.content.Context;
-import android.support.annotation.UiThread;
-import android.support.design.widget.Snackbar;
+import androidx.annotation.UiThread;
 
 import com.au.planningalerts.qr.camera.GraphicOverlay;
 import com.au.planningalerts.server.propertyresolver.IPropertyURLResolver;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * Generic tracker which is used for tracking or reading a barcode (and can really be used for

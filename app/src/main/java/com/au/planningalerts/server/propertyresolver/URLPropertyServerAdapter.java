@@ -21,7 +21,7 @@ package com.au.planningalerts.server.propertyresolver;
 
 import android.content.res.Resources;
 import android.os.Parcel;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.au.planningalerts.R;
 
